@@ -1,7 +1,9 @@
 import type { Recipe, CraftingNode } from './types';
 import recipesData from './recipes.json';
+import obtainingData from './obtaining_methods.json';
 
 const recipes: Recipe[] = recipesData as Recipe[];
+const obtainingMethodsMap: Record<string, string[]> = obtainingData as Record<string, string[]>;
 
 // Map items to their available recipes (can be multiple for e.g. Gold Ore)
 const recipeMap = new Map<string, Recipe[]>();
@@ -26,12 +28,30 @@ for (const r of recipes) {
     }
 }
 
+const surveyOutputsMap = new Map<string, string[]>();
+for (const [item, surveys] of Object.entries(obtainingMethodsMap)) {
+    for (const survey of surveys) {
+        if (!surveyOutputsMap.has(survey)) {
+            surveyOutputsMap.set(survey, []);
+        }
+        surveyOutputsMap.get(survey)!.push(item);
+    }
+}
+
 export function getAvailableItems(): string[] {
     return Array.from(recipeMap.keys()).sort();
 }
 
 export function getAvailableItemsWithDetails(): { name: string, icon?: string }[] {
     return Array.from(recipeMap.keys()).sort().map(name => ({
+        name,
+        icon: iconMap.get(name)
+    }));
+}
+
+export function getSurveyDetails(surveyName: string): { name: string, icon?: string }[] {
+    const outputs = surveyOutputsMap.get(surveyName) || [];
+    return outputs.map(name => ({
         name,
         icon: iconMap.get(name)
     }));
@@ -58,7 +78,8 @@ export function buildCraftingTree(
             name: itemName,
             quantity: targetQuantity,
             icon: iconMap.get(itemName),
-            isRaw: true
+            isRaw: true,
+            obtainingMethods: obtainingMethodsMap[itemName] || []
         };
     }
 

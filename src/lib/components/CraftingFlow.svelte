@@ -3,6 +3,7 @@
   import '@xyflow/svelte/dist/style.css';
   import CustomNode from './CraftingNode.svelte';
   import FitViewHandler from './FitViewHandler.svelte';
+  import { getIconUrl } from '../utils';
 
   const nodeTypes = {
     craftingNode: CustomNode
@@ -29,12 +30,6 @@
       }, new Map<string, RawTotal>())
       .values()
   ) as RawTotal[];
-
-  function getIconUrl(iconName?: string) {
-    if (!iconName) return '';
-    if (iconName.startsWith('http')) return iconName;
-    return new URL(`../../assets/${iconName}`, import.meta.url).href;
-  }
 </script>
 
 <div class="flow-wrapper">
@@ -158,7 +153,7 @@
     font-weight: 600;
   }
   .total-qty.approx {
-    background: #d29922; /* Warning yellowish for approximated */
+    background: #d29922;
     color: #fff;
   }
 </style>

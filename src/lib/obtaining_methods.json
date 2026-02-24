@@ -1,0 +1,59 @@
+{
+  "Simple Metal Slab": [
+    "Serbule Hills Simple Mining Survey",
+    "Kur Mountains Simple Metal Motherlode Map"
+  ],
+  "Basic Metal Slab": [
+    "Serbule Hills Simple Mining Survey",
+    "Serbule Hills Basic Mining Survey",
+    "Kur Mountains Basic Metal Motherlode Map"
+  ],
+  "Flinty Rock": [
+    "Serbule Hills Simple Mining Survey"
+  ],
+  "Good Metal Slab": [
+    "Eltibule Good Mining Survey",
+    "Kur Mountains Good Metal Motherlode Map"
+  ],
+  "Ore": [
+    "Kur Mountains Simple Metal Motherlode Map",
+    "Kur Mountains Basic Metal Motherlode Map",
+    "Kur Mountains Good Metal Motherlode Map",
+    "Ilmari Desert Expert Metal Motherlode Map",
+    "Ilmari Desert Master's Metal Motherlode Map",
+    "Ilmari Desert Amazing Metal Motherlode Map",
+    "Ilmari Desert Astounding Metal Motherlode Map",
+    "Gazluk Astounding Metal Motherlode Map",
+    "Gazluk Superb Metal Motherlode Map",
+    "Povus Astounding Mining Survey",
+    "Povus Superb Mining Survey",
+    "Povus Marvelous Mining Survey"
+  ],
+  "Expert-Quality Metal Slab": [
+    "Eltibule Expert Mining Survey",
+    "Ilmari Desert Expert Metal Motherlode Map"
+  ],
+  "Masterwork Metal Slab": [
+    "Eltibule Masterwork Mining Survey",
+    "Ilmari Desert Master's Metal Motherlode Map"
+  ],
+  "Amazing Metal Slab": [
+    "Eltibule Amazing Mining Survey",
+    "Ilmari Desert Amazing Metal Motherlode Map"
+  ],
+  "Astounding Metal Slab": [
+    "Ilmari Desert Astounding Metal Motherlode Map",
+    "Gazluk Astounding Metal Motherlode Map",
+    "Povus Astounding Mining Survey"
+  ],
+  "Magic Sand": [
+    "Gazluk Astounding Metal Motherlode Map"
+  ],
+  "Superb Metal Slab": [
+    "Gazluk Superb Metal Motherlode Map",
+    "Povus Superb Mining Survey"
+  ],
+  "Marvelous Metal Slab": [
+    "Povus Marvelous Mining Survey"
+  ]
+}

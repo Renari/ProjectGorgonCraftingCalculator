@@ -1,14 +1,8 @@
 <script lang="ts">
   import { Handle, Position } from '@xyflow/svelte';
   import type { Recipe } from '../types';
-  
-  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean };
-
-  function getIconUrl(iconName?: string) {
-    if (!iconName) return '';
-    if (iconName.startsWith('http')) return iconName;
-    return new URL(`../../assets/${iconName}`, import.meta.url).href;
-  }
+  import { getIconUrl } from '../utils';
+  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[] };
 
   function extractSources(sourceStr?: string) {
     if (!sourceStr) return null;
@@ -32,6 +26,18 @@
           itemName: data.label, 
           recipes: data.availableRecipes, 
           currentIdx: data.selectedRecipeIdx 
+        },
+        bubbles: true,
+        composed: true 
+    });
+    (event.target as HTMLElement).dispatchEvent(customEvent);
+  }
+
+  function openObtainModal(event: Event) {
+    const customEvent = new CustomEvent('openObtainModal', { 
+        detail: { 
+          itemName: data.label, 
+          methods: data.obtainingMethods 
         },
         bubbles: true,
         composed: true 
@@ -76,10 +82,14 @@
         </details>
       {/if}
     {/if}
-  {/if}
-
-  {#if data.isRaw}
-     <div class="source raw-badge">Raw Material</div>
+  {:else if data.obtainingMethods && data.obtainingMethods.length > 0}
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
+    <div class="source obtain-methods" on:click={openObtainModal}>
+      🔍 Surveying
+    </div>
+  {:else}
+    <div class="source raw-badge">Raw Material</div>
   {/if}
 
   {#if data.availableRecipes && data.availableRecipes.length > 1}
@@ -112,7 +122,7 @@
   }
 
   .raw {
-    border-color: #3fb950; /* Green tint for raw materials */
+    border-color: #3fb950;
   }
   
   .raw:hover {
@@ -140,8 +150,25 @@
     background: #3fb950;
   }
 
+  .obtain-methods {
+    background: rgba(88, 166, 255, 0.15);
+    color: #58a6ff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+    display: inline-block;
+    border: 1px solid rgba(88, 166, 255, 0.3);
+  }
+
+  .obtain-methods:hover {
+    background: rgba(88, 166, 255, 0.3);
+    border-color: #58a6ff;
+  }
+
   .qty.approx {
-    background: #d29922; /* Warning yellowish for approximated */
+    background: #d29922;
     color: #fff;
   }
 

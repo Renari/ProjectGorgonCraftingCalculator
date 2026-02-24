@@ -66,7 +66,8 @@ export function treeToFlowElements(root: CraftingNode): { nodes: Node[], edges: 
                 source: node.source,
                 availableRecipes: node.availableRecipes,
                 selectedRecipeIdx: node.selectedRecipeIdx,
-                isApproximate: node.isApproximate
+                isApproximate: node.isApproximate,
+                obtainingMethods: node.obtainingMethods
             },
             type: 'craftingNode'
         });

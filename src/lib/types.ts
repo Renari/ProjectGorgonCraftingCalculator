@@ -32,4 +32,5 @@ export interface CraftingNode {
     availableRecipes?: Recipe[];
     selectedRecipeIdx?: number;
     isApproximate?: boolean;
+    obtainingMethods?: string[];
 }

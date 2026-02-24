@@ -1,8 +1,9 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import CraftingFlow from '$lib/components/CraftingFlow.svelte';
-  import { getAvailableItemsWithDetails, buildCraftingTree } from '$lib/calculator';
+  import { getAvailableItemsWithDetails, buildCraftingTree, getSurveyDetails } from '$lib/calculator';
   import { treeToFlowElements } from '$lib/layout';
+  import { getIconUrl } from '$lib/utils';
   import Dagre from '@dagrejs/dagre';
 
   // State
@@ -25,12 +26,18 @@
   let modalRecipes: any[] = [];
   let modalCurrentIdx = 0;
 
+  // Obtaining Methods Modal State
+  let showObtainModal = false;
+  let obtainItemName = '';
+  let obtainMethods: string[] = [];
+
   $: filteredItems = availableItems.filter(item => 
     item.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   onMount(() => {
     window.addEventListener('openRecipeModal', handleOpenRecipeModal as EventListener);
+    window.addEventListener('openObtainModal', handleOpenObtainModal as EventListener);
 
     availableItems = getAvailableItemsWithDetails();
     
@@ -62,6 +69,7 @@
 
     return () => {
       window.removeEventListener('openRecipeModal', handleOpenRecipeModal as EventListener);
+      window.removeEventListener('openObtainModal', handleOpenObtainModal as EventListener);
     };
   });
 
@@ -70,12 +78,6 @@
     if (selectedItem) localStorage.setItem('calc_selectedItem', selectedItem);
     localStorage.setItem('calc_targetQuantity', targetQuantity.toString());
     localStorage.setItem('calc_selectedRecipeIndices', JSON.stringify(selectedRecipeIndices));
-  }
-
-  function getIconUrl(iconName?: string) {
-    if (!iconName) return '';
-    if (iconName.startsWith('http')) return iconName;
-    return new URL(`../assets/${iconName}`, import.meta.url).href;
   }
 
   function selectItem(name: string) {
@@ -101,6 +103,22 @@
 
   function closeRecipeModal() {
     showRecipeModal = false;
+  }
+
+  function handleOpenObtainModal(event: CustomEvent) {
+    const { itemName, methods } = event.detail;
+    obtainItemName = itemName;
+    obtainMethods = methods;
+    showObtainModal = true;
+  }
+
+  function selectObtainMethod(methodName: string) {
+    showObtainModal = false;
+    selectItem(methodName);
+  }
+
+  function closeObtainModal() {
+    showObtainModal = false;
   }
 
   // Simple layout engine using dagre instead of the manual simple one to make it look premium and organized
@@ -230,6 +248,49 @@
             </div>
           </div>
         {/each}
+      </div>
+    </div>
+  </div>
+{/if}
+
+{#if showObtainModal}
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <!-- svelte-ignore a11y-no-static-element-interactions -->
+  <div class="modal-backdrop" on:click={closeObtainModal}>
+    <div class="modal-content obtain-modal-content" on:click|stopPropagation>
+      <div class="modal-header">
+        <h2>Obtaining {obtainItemName}</h2>
+        <button class="close-btn" on:click={closeObtainModal}>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="obtain-desc">This raw material can be gathered using the following methods:</p>
+        <div class="obtain-methods-list">
+          {#each obtainMethods as method}
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div class="obtain-card" on:click={() => selectObtainMethod(method)}>
+              <div class="obtain-card-header">
+                <img src={getIconUrl('icon_5305.png')} alt="Map" class="method-icon" />
+                <div class="method-info">
+                  <span class="prof">Surveying</span>
+                  <span class="method-name">{method}</span>
+                </div>
+              </div>
+              <div class="method-outputs">
+                <span class="output-label">Also yields:</span>
+                <div class="output-items">
+                  {#each getSurveyDetails(method) as output}
+                    <div class="output-item" title={output.name}>
+                      {#if output.icon}
+                        <img src={getIconUrl(output.icon)} alt={output.name} class="output-icon" />
+                      {/if}
+                      <span>{output.name}</span>
+                    </div>
+                  {/each}
+                </div>
+              </div>
+            </div>
+          {/each}
+        </div>
       </div>
     </div>
   </div>
@@ -380,6 +441,115 @@
     margin-bottom: 4px;
   }
   .ing-icon { width: 20px; height: 20px; border-radius: 4px; }
+
+  /* Obtaining Modal Styles */
+  .obtain-modal-content {
+    width: 480px;
+  }
+  
+  .obtain-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .obtain-methods-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .obtain-card {
+    background: rgba(22, 27, 34, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .obtain-card:hover {
+    border-color: #58a6ff;
+    background: rgba(88, 166, 255, 0.1);
+    transform: translateX(4px);
+  }
+
+  .obtain-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .method-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.3);
+    padding: 2px;
+  }
+
+  .method-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .method-info .prof {
+    font-size: 0.75rem;
+    color: #58a6ff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  .method-info .method-name {
+    font-size: 1rem;
+    color: var(--text-main);
+    font-weight: 500;
+  }
+
+  .method-outputs {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 6px;
+  }
+
+  .output-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .output-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .output-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    color: var(--text-main);
+  }
+
+  .output-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+  }
 
   input {
     background: rgba(13, 17, 23, 0.8);
