@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+:root {
+  --bg-color: #0d1117;
+  --panel-bg: rgba(22, 27, 34, 0.7);
+  --border-color: rgba(48, 54, 61, 0.8);
+  --text-main: #c9d1d9;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-hover: #79c0ff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow: hidden; /* Prevent body scrolling if canvas fills */
+}
+
+/* SvelteFlow overrides for dark mode aesthetic */
+.svelte-flow__panel {
+  background: var(--panel-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+}
+
+.svelte-flow__controls-button {
+  background: transparent !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  fill: var(--text-main) !important;
+}
+
+.svelte-flow__controls-button:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.svelte-flow__node {
+  border-radius: 12px;
+}
+
+/* Hide SvelteFlow watermark */
+.svelte-flow__attribution {
+  display: none !important;
+}
