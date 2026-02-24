@@ -15,15 +15,16 @@
   $: nodes = initialNodes.map(n => ({ ...n, type: 'craftingNode' }));
   $: edges = initialEdges;
 
-  type RawTotal = { label: string, icon?: string, quantity: number };
+  type RawTotal = { label: string, icon?: string, quantity: number, isApproximate?: boolean };
 
   // Compute total raw materials directly from nodes
   $: rawTotals = Array.from(
     nodes
       .filter((n: any) => n.data?.isRaw)
       .reduce((acc: Map<string, RawTotal>, n: any) => {
-        const item = acc.get(n.data.label) || { label: n.data.label, icon: n.data.icon, quantity: 0 };
+        const item = acc.get(n.data.label) || { label: n.data.label, icon: n.data.icon, quantity: 0, isApproximate: false };
         item.quantity += n.data.quantity;
+        if (n.data.isApproximate) item.isApproximate = true;
         return acc.set(n.data.label, item);
       }, new Map<string, RawTotal>())
       .values()
@@ -54,7 +55,7 @@
                 <img src={getIconUrl(total.icon)} alt={total.label} class="total-icon" />
               {/if}
               <span class="total-label">{total.label}</span>
-              <span class="total-qty">x{total.quantity}</span>
+              <span class="total-qty" class:approx={total.isApproximate}>{total.isApproximate ? '≈' : 'x'}{total.quantity}</span>
             </div>
           {/each}
         </div>
@@ -155,5 +156,9 @@
     border-radius: 4px;
     font-size: 0.8em;
     font-weight: 600;
+  }
+  .total-qty.approx {
+    background: #d29922; /* Warning yellowish for approximated */
+    color: #fff;
   }
 </style>

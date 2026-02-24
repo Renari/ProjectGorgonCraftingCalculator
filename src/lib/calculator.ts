@@ -73,12 +73,26 @@ export function buildCraftingTree(
     const actualOutput = craftsNeeded * outputQty;
 
     const children: CraftingNode[] = recipe.ingredients.map((ing, index) => {
-        return buildCraftingTree(
+        let reqQty = ing.quantity * craftsNeeded;
+        let isApproximate = false;
+        
+        if (ing.consume_chance !== undefined && ing.consume_chance < 1.0) {
+            reqQty = Math.ceil(reqQty * ing.consume_chance);
+            isApproximate = true;
+        }
+
+        const childNode = buildCraftingTree(
             ing.name, 
-            ing.quantity * craftsNeeded, 
+            reqQty, 
             `${nodeIdPrefix}-${index}`,
             selectedRecipeIndices
         );
+        
+        if (isApproximate) {
+            childNode.isApproximate = true;
+        }
+        
+        return childNode;
     });
 
     return {

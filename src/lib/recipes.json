@@ -485,7 +485,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -766,7 +767,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.05
       }
     ],
     "results": [
@@ -839,7 +841,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -868,7 +871,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -902,7 +906,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -931,7 +936,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1096,7 +1102,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1169,7 +1176,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1198,7 +1206,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1232,7 +1241,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1397,7 +1407,8 @@
       {
         "name": "Ultimate Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.05
       }
     ],
     "results": [
@@ -1470,7 +1481,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1499,7 +1511,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.25
       }
     ],
     "results": [
@@ -1528,7 +1541,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1562,7 +1576,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1727,7 +1742,8 @@
       {
         "name": "Ultimate Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.05
       }
     ],
     "results": [
@@ -1800,7 +1816,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1829,7 +1846,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -1863,7 +1881,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -1994,7 +2013,8 @@
       {
         "name": "Ultimate Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.05
       }
     ],
     "results": [
@@ -2072,7 +2092,8 @@
       {
         "name": "Weak Acidic Cleanser",
         "quantity": 2,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -2101,7 +2122,8 @@
       {
         "name": "Ultimate Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -2140,7 +2162,8 @@
       {
         "name": "Potent Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -2242,7 +2265,8 @@
       {
         "name": "Ultimate Acidic Cleanser",
         "quantity": 1,
-        "icon": "icon_5181.png"
+        "icon": "icon_5181.png",
+        "consume_chance": 0.05
       }
     ],
     "results": [
@@ -2556,7 +2580,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       }
     ],
     "results": [
@@ -2585,7 +2610,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       }
     ],
     "results": [
@@ -2638,7 +2664,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.1
       }
     ],
     "results": [
@@ -2672,7 +2699,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.1
       },
       {
         "name": "Crystal",
@@ -3159,7 +3187,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       }
     ],
     "results": [
@@ -3188,7 +3217,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       }
     ],
     "results": [
@@ -3241,7 +3271,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -3275,7 +3306,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Crystal",
@@ -3743,7 +3775,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -3782,7 +3815,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -3821,7 +3855,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.25
       }
     ],
     "results": [
@@ -3855,7 +3890,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.25
       },
       {
         "name": "Crystal",
@@ -4237,7 +4273,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -4276,7 +4313,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -4344,7 +4382,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.35
       },
       {
         "name": "Crystal",
@@ -4762,7 +4801,8 @@
       {
         "name": "Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5559.png"
+        "icon": "icon_5559.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -4796,7 +4836,8 @@
       {
         "name": "Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5559.png"
+        "icon": "icon_5559.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -4864,7 +4905,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.45
       },
       {
         "name": "Crystal",
@@ -4908,7 +4950,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.45
       },
       {
         "name": "Maximized Obsidian",
@@ -5359,7 +5402,8 @@
       {
         "name": "Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5559.png"
+        "icon": "icon_5559.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -5393,7 +5437,8 @@
       {
         "name": "Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5559.png"
+        "icon": "icon_5559.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -5461,7 +5506,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.55
       },
       {
         "name": "Crystal",
@@ -5505,7 +5551,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.55
       },
       {
         "name": "Maximized Obsidian",
@@ -5899,7 +5946,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -5933,7 +5981,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -5972,7 +6021,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.65
       },
       {
         "name": "Crystal",
@@ -6016,7 +6066,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.65
       },
       {
         "name": "Vervadium",
@@ -6425,7 +6476,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -6459,7 +6511,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -6498,7 +6551,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.75
       },
       {
         "name": "Crystal",
@@ -6542,7 +6596,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.75
       },
       {
         "name": "Vervadium",
@@ -6927,7 +6982,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -6966,7 +7022,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Auxiliary Crystal",
@@ -7039,7 +7096,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.85
       },
       {
         "name": "Crystal",
@@ -7083,7 +7141,8 @@
       {
         "name": "Ancient Stencil",
         "quantity": 1,
-        "icon": "icon_5115.png"
+        "icon": "icon_5115.png",
+        "consume_chance": 0.85
       },
       {
         "name": "Glowy Yellow Crystal",
@@ -7248,7 +7307,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -7296,7 +7356,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -7325,7 +7386,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -7354,7 +7416,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -7565,7 +7628,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -7594,7 +7658,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -7637,7 +7702,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -7685,7 +7751,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -7714,7 +7781,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -7849,7 +7917,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -7945,7 +8014,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -7974,7 +8044,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -8099,7 +8170,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -8133,7 +8205,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -8172,7 +8245,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -8583,7 +8657,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Hardened Rivets",
@@ -8622,7 +8697,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.5
       }
     ],
     "results": [
@@ -8738,12 +8814,14 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -8796,7 +8874,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -8830,7 +8909,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -8869,7 +8949,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9116,7 +9197,8 @@
       {
         "name": "Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -9174,7 +9256,8 @@
       {
         "name": "Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.1
       },
       {
         "name": "Hardened Rivets",
@@ -9208,7 +9291,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -9271,7 +9355,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9310,7 +9395,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9446,7 +9532,8 @@
       {
         "name": "Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -9475,7 +9562,8 @@
       {
         "name": "Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.1
       },
       {
         "name": "Hardened Rivets",
@@ -9509,7 +9597,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -9543,7 +9632,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9582,7 +9672,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9621,12 +9712,14 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -9655,7 +9748,8 @@
       {
         "name": "Grand Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.1
       },
       {
         "name": "Extreme Rivets",
@@ -9713,7 +9807,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -9747,7 +9842,8 @@
       {
         "name": "Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5559.png"
+        "icon": "icon_5559.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9786,7 +9882,8 @@
       {
         "name": "Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5559.png"
+        "icon": "icon_5559.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9825,7 +9922,8 @@
       {
         "name": "Grand Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.1
       },
       {
         "name": "Extreme Rivets",
@@ -9859,7 +9957,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Sharpening Stone",
@@ -9893,7 +9992,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -9932,7 +10032,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -10000,7 +10101,8 @@
       {
         "name": "Grand Shaping Hammer",
         "quantity": 1,
-        "icon": "icon_5560.png"
+        "icon": "icon_5560.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Extreme Rivets",
@@ -10039,7 +10141,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -10078,7 +10181,8 @@
       {
         "name": "Delicate Tack Hammer",
         "quantity": 1,
-        "icon": "icon_5558.png"
+        "icon": "icon_5558.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Rivets",
@@ -10117,7 +10221,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10146,7 +10251,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10175,7 +10281,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10204,7 +10311,8 @@
       {
         "name": "Simple Metal Slab",
         "quantity": 1,
-        "icon": "icon_5297.png"
+        "icon": "icon_5297.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10233,7 +10341,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10262,7 +10371,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10291,7 +10401,8 @@
       {
         "name": "Basic Metal Slab",
         "quantity": 1,
-        "icon": "icon_5298.png"
+        "icon": "icon_5298.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10320,7 +10431,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10349,7 +10461,8 @@
       {
         "name": "Good Metal Slab",
         "quantity": 1,
-        "icon": "icon_5299.png"
+        "icon": "icon_5299.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10378,7 +10491,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10407,7 +10521,8 @@
       {
         "name": "Tundra Lichen",
         "quantity": 1,
-        "icon": "icon_5355.png"
+        "icon": "icon_5355.png",
+        "consume_chance": 0.2
       },
       {
         "name": "Simple Metal Slab",
@@ -10441,7 +10556,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10470,7 +10586,8 @@
       {
         "name": "Tundra Lichen",
         "quantity": 1,
-        "icon": "icon_5355.png"
+        "icon": "icon_5355.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Basic Metal Slab",
@@ -10504,7 +10621,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10533,7 +10651,8 @@
       {
         "name": "Expert-Quality Metal Slab",
         "quantity": 1,
-        "icon": "icon_5300.png"
+        "icon": "icon_5300.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10562,7 +10681,8 @@
       {
         "name": "Rubywall Crystal",
         "quantity": 1,
-        "icon": "icon_5056.png"
+        "icon": "icon_5056.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10591,7 +10711,8 @@
       {
         "name": "Tundra Lichen",
         "quantity": 1,
-        "icon": "icon_5355.png"
+        "icon": "icon_5355.png",
+        "consume_chance": 0.66
       },
       {
         "name": "Good Metal Slab",
@@ -10625,7 +10746,8 @@
       {
         "name": "Masterwork Metal Slab",
         "quantity": 1,
-        "icon": "icon_5301.png"
+        "icon": "icon_5301.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10654,7 +10776,8 @@
       {
         "name": "Ice Core",
         "quantity": 1,
-        "icon": "icon_5295.png"
+        "icon": "icon_5295.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10683,7 +10806,8 @@
       {
         "name": "Ice Core",
         "quantity": 1,
-        "icon": "icon_5295.png"
+        "icon": "icon_5295.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10712,7 +10836,8 @@
       {
         "name": "Ice Core",
         "quantity": 1,
-        "icon": "icon_5295.png"
+        "icon": "icon_5295.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10741,7 +10866,8 @@
       {
         "name": "Ice Core",
         "quantity": 1,
-        "icon": "icon_5295.png"
+        "icon": "icon_5295.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10770,7 +10896,8 @@
       {
         "name": "Magic Sand",
         "quantity": 1,
-        "icon": "icon_5516.png"
+        "icon": "icon_5516.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Expert-Quality Metal Slab",
@@ -10804,7 +10931,8 @@
       {
         "name": "Amazing Metal Slab",
         "quantity": 1,
-        "icon": "icon_5576.png"
+        "icon": "icon_5576.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -10833,7 +10961,8 @@
       {
         "name": "Magic Sand",
         "quantity": 1,
-        "icon": "icon_5516.png"
+        "icon": "icon_5516.png",
+        "consume_chance": 0.75
       },
       {
         "name": "Masterwork Metal Slab",
@@ -11085,7 +11214,8 @@
       {
         "name": "Sharpening Stone",
         "quantity": 1,
-        "icon": "icon_5278.png"
+        "icon": "icon_5278.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -11138,7 +11268,8 @@
       {
         "name": "Sharpening Stone",
         "quantity": 1,
-        "icon": "icon_5278.png"
+        "icon": "icon_5278.png",
+        "consume_chance": 0.5
       }
     ],
     "results": [
@@ -11341,12 +11472,14 @@
       {
         "name": "Whetstone",
         "quantity": 1,
-        "icon": "icon_5278.png"
+        "icon": "icon_5278.png",
+        "consume_chance": 0.5
       },
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -11438,7 +11571,8 @@
       {
         "name": "Peening Hammer",
         "quantity": 1,
-        "icon": "icon_5562.png"
+        "icon": "icon_5562.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -11535,7 +11669,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [
@@ -11719,7 +11854,8 @@
       {
         "name": "Dishing Hammer",
         "quantity": 1,
-        "icon": "icon_5561.png"
+        "icon": "icon_5561.png",
+        "consume_chance": 0.2
       }
     ],
     "results": [

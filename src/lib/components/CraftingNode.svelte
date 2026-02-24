@@ -2,7 +2,7 @@
   import { Handle, Position } from '@xyflow/svelte';
   import type { Recipe } from '../types';
   
-  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number };
+  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean };
 
   function getIconUrl(iconName?: string) {
     if (!iconName) return '';
@@ -48,7 +48,9 @@
       <img src={getIconUrl(data.icon)} alt={data.label} class="icon" />
     {/if}
     <div class="title">{data.label}</div>
-    <div class="qty">x{data.quantity}</div>
+    <div class="qty" class:approx={data.isApproximate} title={data.isApproximate ? "Approximated requirement based on chance to consume." : ""}>
+      {data.isApproximate ? '≈' : 'x'}{data.quantity}
+    </div>
   </div>
   
   {#if !data.isRaw}
@@ -136,6 +138,11 @@
 
   .raw .qty {
     background: #3fb950;
+  }
+
+  .qty.approx {
+    background: #d29922; /* Warning yellowish for approximated */
+    color: #fff;
   }
 
   .title {

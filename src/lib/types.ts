@@ -2,6 +2,7 @@ export interface RecipeIngredient {
     name: string;
     quantity: number;
     icon?: string;
+    consume_chance?: number;
 }
 
 export interface RecipeResult {
@@ -30,4 +31,5 @@ export interface CraftingNode {
     children?: CraftingNode[];
     availableRecipes?: Recipe[];
     selectedRecipeIdx?: number;
+    isApproximate?: boolean;
 }
