@@ -32,5 +32,11 @@ export interface CraftingNode {
     availableRecipes?: Recipe[];
     selectedRecipeIdx?: number;
     isApproximate?: boolean;
-    obtainingMethods?: string[];
+    obtainingMethods?: ObtainingMethod[];
+}
+
+export interface ObtainingMethod {
+    name: string;
+    surveyingLevel?: number;
+    miningLevel?: number;
 }

@@ -1,9 +1,9 @@
-import type { Recipe, CraftingNode } from './types';
+import type { Recipe, CraftingNode, ObtainingMethod } from './types';
 import recipesData from './recipes.json';
 import obtainingData from './obtaining_methods.json';
 
 const recipes: Recipe[] = recipesData as Recipe[];
-const obtainingMethodsMap: Record<string, string[]> = obtainingData as Record<string, string[]>;
+const obtainingMethodsMap: Record<string, ObtainingMethod[]> = obtainingData as Record<string, ObtainingMethod[]>;
 
 // Map items to their available recipes (can be multiple for e.g. Gold Ore)
 const recipeMap = new Map<string, Recipe[]>();
@@ -29,12 +29,12 @@ for (const r of recipes) {
 }
 
 const surveyOutputsMap = new Map<string, string[]>();
-for (const [item, surveys] of Object.entries(obtainingMethodsMap)) {
-    for (const survey of surveys) {
-        if (!surveyOutputsMap.has(survey)) {
-            surveyOutputsMap.set(survey, []);
+for (const [item, methods] of Object.entries(obtainingMethodsMap)) {
+    for (const method of methods) {
+        if (!surveyOutputsMap.has(method.name)) {
+            surveyOutputsMap.set(method.name, []);
         }
-        surveyOutputsMap.get(survey)!.push(item);
+        surveyOutputsMap.get(method.name).push(item);
     }
 }
 

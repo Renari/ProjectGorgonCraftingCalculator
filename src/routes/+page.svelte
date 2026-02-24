@@ -4,6 +4,7 @@
   import { getAvailableItemsWithDetails, buildCraftingTree, getSurveyDetails } from '$lib/calculator';
   import { treeToFlowElements } from '$lib/layout';
   import { getIconUrl } from '$lib/utils';
+  import type { ObtainingMethod } from '$lib/types';
   import Dagre from '@dagrejs/dagre';
 
   // State
@@ -29,7 +30,7 @@
   // Obtaining Methods Modal State
   let showObtainModal = false;
   let obtainItemName = '';
-  let obtainMethods: string[] = [];
+  let obtainMethods: ObtainingMethod[] = [];
 
   $: filteredItems = availableItems.filter(item => 
     item.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -267,18 +268,25 @@
         <div class="obtain-methods-list">
           {#each obtainMethods as method}
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <div class="obtain-card" on:click={() => selectObtainMethod(method)}>
+            <div class="obtain-card" on:click={() => selectObtainMethod(method.name)}>
               <div class="obtain-card-header">
                 <img src={getIconUrl('icon_5305.png')} alt="Map" class="method-icon" />
                 <div class="method-info">
                   <span class="prof">Surveying</span>
-                  <span class="method-name">{method}</span>
+                  <span class="method-name">{method.name}</span>
+                  <div class="method-reqs">
+                    {#if method.surveyingLevel}
+                      <span class="req survey-req">Surveying Lvl {method.surveyingLevel}</span>
+                    {/if}
+                    {#if method.miningLevel}
+                      <span class="req mining-req">Mining Lvl {method.miningLevel}</span>
+                    {/if}
+                  </div>
                 </div>
               </div>
               <div class="method-outputs">
-                <span class="output-label">Also yields:</span>
                 <div class="output-items">
-                  {#each getSurveyDetails(method) as output}
+                  {#each getSurveyDetails(method.name) as output}
                     <div class="output-item" title={output.name}>
                       {#if output.icon}
                         <img src={getIconUrl(output.icon)} alt={output.name} class="output-icon" />
@@ -512,6 +520,29 @@
     font-weight: 500;
   }
 
+  .method-reqs {
+    display: flex;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .method-reqs .req {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .method-reqs .survey-req {
+    color: #58a6ff;
+    border: 1px solid rgba(88, 166, 255, 0.3);
+  }
+
+  .method-reqs .mining-req {
+    color: #ffd33d;
+    border: 1px solid rgba(255, 211, 61, 0.3);
+  }
+
   .method-outputs {
     display: flex;
     flex-direction: column;
@@ -519,13 +550,6 @@
     background: rgba(0, 0, 0, 0.2);
     padding: 8px;
     border-radius: 6px;
-  }
-
-  .output-label {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
 
   .output-items {

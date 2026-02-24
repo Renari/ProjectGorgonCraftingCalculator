@@ -1,59 +1,191 @@
 {
   "Simple Metal Slab": [
-    "Serbule Hills Simple Mining Survey",
-    "Kur Mountains Simple Metal Motherlode Map"
+    {
+      "name": "Serbule Hills Simple Mining Survey",
+      "surveyingLevel": 7,
+      "miningLevel": 1
+    },
+    {
+      "name": "Kur Mountains Simple Metal Motherlode Map",
+      "surveyingLevel": 28,
+      "miningLevel": 23
+    }
   ],
   "Basic Metal Slab": [
-    "Serbule Hills Simple Mining Survey",
-    "Serbule Hills Basic Mining Survey",
-    "Kur Mountains Basic Metal Motherlode Map"
+    {
+      "name": "Serbule Hills Simple Mining Survey",
+      "surveyingLevel": 7,
+      "miningLevel": 1
+    },
+    {
+      "name": "Serbule Hills Basic Mining Survey",
+      "surveyingLevel": 15,
+      "miningLevel": 10
+    },
+    {
+      "name": "Kur Mountains Basic Metal Motherlode Map",
+      "surveyingLevel": 33,
+      "miningLevel": 28
+    }
   ],
   "Flinty Rock": [
-    "Serbule Hills Simple Mining Survey"
+    {
+      "name": "Serbule Hills Simple Mining Survey",
+      "surveyingLevel": 7,
+      "miningLevel": 1
+    }
   ],
   "Good Metal Slab": [
-    "Eltibule Good Mining Survey",
-    "Kur Mountains Good Metal Motherlode Map"
+    {
+      "name": "Eltibule Good Mining Survey",
+      "surveyingLevel": 25,
+      "miningLevel": 15
+    },
+    {
+      "name": "Kur Mountains Good Metal Motherlode Map",
+      "surveyingLevel": 43,
+      "miningLevel": 38
+    }
   ],
   "Ore": [
-    "Kur Mountains Simple Metal Motherlode Map",
-    "Kur Mountains Basic Metal Motherlode Map",
-    "Kur Mountains Good Metal Motherlode Map",
-    "Ilmari Desert Expert Metal Motherlode Map",
-    "Ilmari Desert Master's Metal Motherlode Map",
-    "Ilmari Desert Amazing Metal Motherlode Map",
-    "Ilmari Desert Astounding Metal Motherlode Map",
-    "Gazluk Astounding Metal Motherlode Map",
-    "Gazluk Superb Metal Motherlode Map",
-    "Povus Astounding Mining Survey",
-    "Povus Superb Mining Survey",
-    "Povus Marvelous Mining Survey"
+    {
+      "name": "Kur Mountains Simple Metal Motherlode Map",
+      "surveyingLevel": 28,
+      "miningLevel": 23
+    },
+    {
+      "name": "Kur Mountains Basic Metal Motherlode Map",
+      "surveyingLevel": 33,
+      "miningLevel": 28
+    },
+    {
+      "name": "Kur Mountains Good Metal Motherlode Map",
+      "surveyingLevel": 43,
+      "miningLevel": 38
+    },
+    {
+      "name": "Ilmari Desert Expert Metal Motherlode Map",
+      "surveyingLevel": 48,
+      "miningLevel": 43
+    },
+    {
+      "name": "Ilmari Desert Master's Metal Motherlode Map",
+      "surveyingLevel": 53,
+      "miningLevel": 48
+    },
+    {
+      "name": "Ilmari Desert Amazing Metal Motherlode Map",
+      "surveyingLevel": 58,
+      "miningLevel": 53
+    },
+    {
+      "name": "Ilmari Desert Astounding Metal Motherlode Map",
+      "surveyingLevel": 60,
+      "miningLevel": 58
+    },
+    {
+      "name": "Gazluk Astounding Metal Motherlode Map",
+      "surveyingLevel": 60,
+      "miningLevel": 58
+    },
+    {
+      "name": "Gazluk Superb Metal Motherlode Map",
+      "surveyingLevel": 65,
+      "miningLevel": 63
+    },
+    {
+      "name": "Povus Astounding Mining Survey",
+      "surveyingLevel": 70,
+      "miningLevel": 68
+    },
+    {
+      "name": "Povus Superb Mining Survey",
+      "surveyingLevel": 75,
+      "miningLevel": 74
+    },
+    {
+      "name": "Povus Marvelous Mining Survey",
+      "surveyingLevel": 80,
+      "miningLevel": 80
+    }
   ],
   "Expert-Quality Metal Slab": [
-    "Eltibule Expert Mining Survey",
-    "Ilmari Desert Expert Metal Motherlode Map"
+    {
+      "name": "Eltibule Expert Mining Survey",
+      "surveyingLevel": 35,
+      "miningLevel": 27
+    },
+    {
+      "name": "Ilmari Desert Expert Metal Motherlode Map",
+      "surveyingLevel": 48,
+      "miningLevel": 43
+    }
   ],
   "Masterwork Metal Slab": [
-    "Eltibule Masterwork Mining Survey",
-    "Ilmari Desert Master's Metal Motherlode Map"
+    {
+      "name": "Eltibule Masterwork Mining Survey",
+      "surveyingLevel": 45,
+      "miningLevel": 35
+    },
+    {
+      "name": "Ilmari Desert Master's Metal Motherlode Map",
+      "surveyingLevel": 53,
+      "miningLevel": 48
+    }
   ],
   "Amazing Metal Slab": [
-    "Eltibule Amazing Mining Survey",
-    "Ilmari Desert Amazing Metal Motherlode Map"
+    {
+      "name": "Eltibule Amazing Mining Survey",
+      "surveyingLevel": 50,
+      "miningLevel": 45
+    },
+    {
+      "name": "Ilmari Desert Amazing Metal Motherlode Map",
+      "surveyingLevel": 58,
+      "miningLevel": 53
+    }
   ],
   "Astounding Metal Slab": [
-    "Ilmari Desert Astounding Metal Motherlode Map",
-    "Gazluk Astounding Metal Motherlode Map",
-    "Povus Astounding Mining Survey"
+    {
+      "name": "Ilmari Desert Astounding Metal Motherlode Map",
+      "surveyingLevel": 60,
+      "miningLevel": 58
+    },
+    {
+      "name": "Gazluk Astounding Metal Motherlode Map",
+      "surveyingLevel": 60,
+      "miningLevel": 58
+    },
+    {
+      "name": "Povus Astounding Mining Survey",
+      "surveyingLevel": 70,
+      "miningLevel": 68
+    }
   ],
   "Magic Sand": [
-    "Gazluk Astounding Metal Motherlode Map"
+    {
+      "name": "Gazluk Astounding Metal Motherlode Map",
+      "surveyingLevel": 60,
+      "miningLevel": 58
+    }
   ],
   "Superb Metal Slab": [
-    "Gazluk Superb Metal Motherlode Map",
-    "Povus Superb Mining Survey"
+    {
+      "name": "Gazluk Superb Metal Motherlode Map",
+      "surveyingLevel": 65,
+      "miningLevel": 63
+    },
+    {
+      "name": "Povus Superb Mining Survey",
+      "surveyingLevel": 75,
+      "miningLevel": 74
+    }
   ],
   "Marvelous Metal Slab": [
-    "Povus Marvelous Mining Survey"
+    {
+      "name": "Povus Marvelous Mining Survey",
+      "surveyingLevel": 80,
+      "miningLevel": 80
+    }
   ]
 }
