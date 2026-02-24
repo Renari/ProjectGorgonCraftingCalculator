@@ -11072,5 +11072,794 @@
       }
     ],
     "source": "Training: Dachak the Digger"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Simple Metal Slab",
+        "quantity": 1,
+        "icon": "icon_5297.png"
+      },
+      {
+        "name": "Sharpening Stone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Armor Patch Kit",
+        "quantity": 1,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      },
+      {
+        "name": "Scray Stinger",
+        "quantity": 1,
+        "icon": "icon_5426.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Fishy Goop",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Simple Metal Slab",
+        "quantity": 2,
+        "icon": "icon_5297.png"
+      },
+      {
+        "name": "Sharpening Stone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Armor Patch Kit",
+        "quantity": 2,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      },
+      {
+        "name": "Small Dinosaur Scale",
+        "quantity": 1,
+        "icon": "icon_5294.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Starch 'n Scales",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      },
+      {
+        "name": "Oversized Mandible",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Stingy Goop",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Simple Metal Slab",
+        "quantity": 3,
+        "icon": "icon_5297.png"
+      },
+      {
+        "name": "Basic Metal Slab",
+        "quantity": 2,
+        "icon": "icon_5298.png"
+      },
+      {
+        "name": "Sharpening Stone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Good Armor Patch Kit",
+        "quantity": 2,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "icon": "icon_5103.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Idiot-Proof Safety Wax #1",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": 2,
+        "icon": "icon_5022.png"
+      },
+      {
+        "name": "Snail Sinews",
+        "quantity": 1,
+        "icon": "icon_5403.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Starch 'n Snails",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      },
+      {
+        "name": "Toxic Sludge",
+        "quantity": 1,
+        "icon": "icon_5986.png"
+      },
+      {
+        "name": "Deer Guts",
+        "quantity": 1,
+        "icon": "icon_5637.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Sludgy Goop",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Good Metal Slab",
+        "quantity": 2,
+        "icon": "icon_5299.png"
+      },
+      {
+        "name": "Whetstone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      },
+      {
+        "name": "Peening Hammer",
+        "quantity": 1,
+        "icon": "icon_5562.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Expert's Armor Patch Kit",
+        "quantity": 2,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Beet",
+        "quantity": 1,
+        "icon": "icon_5101.png"
+      },
+      {
+        "name": "Wolf Tail",
+        "quantity": 1,
+        "icon": "icon_5638.png"
+      },
+      {
+        "name": "Panther Tail",
+        "quantity": 1,
+        "icon": "icon_5641.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Starch 'n Tails",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Zombified Hand",
+        "quantity": 1,
+        "icon": "icon_5407.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Grippy Goop",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Expert-Quality Metal Slab",
+        "quantity": 2,
+        "icon": "icon_5300.png"
+      },
+      {
+        "name": "Whetstone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      },
+      {
+        "name": "Peening Hammer",
+        "quantity": 1,
+        "icon": "icon_5562.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Master Armor Patch Kit",
+        "quantity": 2,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Beet",
+        "quantity": 2,
+        "icon": "icon_5101.png"
+      },
+      {
+        "name": "Ectoplasm",
+        "quantity": 1,
+        "icon": "icon_5065.png"
+      },
+      {
+        "name": "Rubbery Tongue",
+        "quantity": 1,
+        "icon": "icon_5394.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Starch 'n Wails",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Heartshroom",
+        "quantity": 1,
+        "icon": "icon_5343.png"
+      },
+      {
+        "name": "Crossing Oil",
+        "quantity": 1,
+        "icon": "icon_5189.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Fungal Goop",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Masterwork Metal Slab",
+        "quantity": 2,
+        "icon": "icon_5301.png"
+      },
+      {
+        "name": "Whetstone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      },
+      {
+        "name": "Dishing Hammer",
+        "quantity": 1,
+        "icon": "icon_5561.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Armor Patch Kit",
+        "quantity": 2,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Arlan Training: Tyler Green"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Ultra Lac",
+        "quantity": 1,
+        "icon": "icon_5552.png"
+      },
+      {
+        "name": "Beak",
+        "quantity": 1,
+        "icon": "icon_5237.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Idiot-Proof Safety Wax #2",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Arlan"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Lac",
+        "quantity": 2,
+        "icon": "icon_5551.png"
+      },
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Arlan"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 60,
+    "ingredients": [
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      },
+      {
+        "name": "Dwarven N Core",
+        "quantity": 1,
+        "icon": "icon_5750.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Basic Flesh-Melter",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Arlan"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 65,
+    "ingredients": [
+      {
+        "name": "Lac",
+        "quantity": 3,
+        "icon": "icon_5551.png"
+      },
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Snake Scales",
+        "quantity": 1,
+        "icon": "icon_5996.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Tough Shellac",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Arlan"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      },
+      {
+        "name": "Scorpion Stinger",
+        "quantity": 1,
+        "icon": "icon_5426.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Advanced Flesh-Melter",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Pegast"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Amazing Metal Slab",
+        "quantity": 2,
+        "icon": "icon_5576.png"
+      },
+      {
+        "name": "Whetstone",
+        "quantity": 1,
+        "icon": "icon_5278.png"
+      },
+      {
+        "name": "Dishing Hammer",
+        "quantity": 1,
+        "icon": "icon_5561.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Astounding Armor Patch Kit",
+        "quantity": 2,
+        "icon": "icon_5059.png"
+      }
+    ],
+    "source": "Training: Arlan"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 75,
+    "ingredients": [
+      {
+        "name": "Ultra Lac",
+        "quantity": 1,
+        "icon": "icon_5552.png"
+      },
+      {
+        "name": "Femur Pile",
+        "quantity": 1,
+        "icon": "icon_6230.png"
+      },
+      {
+        "name": "Candle Stump",
+        "quantity": 1,
+        "icon": "icon_5479.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Extra-Thick Shellac",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Pegast"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 80,
+    "ingredients": [
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      },
+      {
+        "name": "Manticore Tail Tip",
+        "quantity": 1,
+        "icon": "icon_5426.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Acidic Wax: Fancy Flesh-Melter",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Pegast"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 85,
+    "ingredients": [
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 3,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Bear Claw",
+        "quantity": 1,
+        "icon": "icon_5642.png"
+      },
+      {
+        "name": "Toxic Ice Sludge",
+        "quantity": 1,
+        "icon": "icon_5987.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Idiot-Proof Safety Wax #3",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Pegast"
+  },
+  {
+    "profession": "Armor Patching",
+    "level": 85,
+    "ingredients": [
+      {
+        "name": "Ultra Lac",
+        "quantity": 2,
+        "icon": "icon_5552.png"
+      },
+      {
+        "name": "Heartshroom",
+        "quantity": 1,
+        "icon": "icon_5343.png"
+      },
+      {
+        "name": "Pixie Dust",
+        "quantity": 1,
+        "icon": "icon_6270.png"
+      },
+      {
+        "name": "Shield",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Safety Wax: Extreme Shellac",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Pegast"
   }
 ]
