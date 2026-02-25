@@ -114,11 +114,27 @@ export function buildCraftingTree(
     // Bound check just in case
     const recipe = availableRecipes[Math.min(recipeIdx, availableRecipes.length - 1)];
 
-    const outputQty = recipe.results[0]?.quantity || 1;
+    // Identify primary result vs byproducts
+    let primaryResult = recipe.results.find(r => r.name === itemName);
+    if (!primaryResult) primaryResult = recipe.results[0];
     
+    let outputQty = primaryResult?.quantity || 1;
+    let byproductsRaw = recipe.results.filter(r => r !== primaryResult);
+    
+    let expectedOutputPerCraft = outputQty;
+    let isOutputApproximate = false;
+
+    // Assimilate identical byproducts into the expected yield math, but keep them in the array for UI rendering
+    for (const bp of byproductsRaw) {
+        if (bp.name === itemName) {
+            expectedOutputPerCraft += bp.quantity * (bp.chance || 1.0);
+            isOutputApproximate = true;
+        }
+    }
+
     // We need to craft `craftsNeeded` times to meet or exceed targetQuantity
-    const craftsNeeded = Math.ceil(targetQuantity / outputQty);
-    const actualOutput = craftsNeeded * outputQty;
+    const craftsNeeded = Math.ceil(targetQuantity / expectedOutputPerCraft);
+    const actualOutput = Math.floor(craftsNeeded * expectedOutputPerCraft);
 
     const children: CraftingNode[] = recipe.ingredients.map((ing, index) => {
         let reqQty = ing.quantity * craftsNeeded;
@@ -143,7 +159,38 @@ export function buildCraftingTree(
         return childNode;
     });
 
-    return {
+    let byproducts = undefined;
+    if (byproductsRaw.length > 0) {
+        const bpMap = new Map<string, any>();
+        
+        for (const bp of byproductsRaw) {
+            const group = bpMap.get(bp.name) || {
+                name: bp.name,
+                totalExpectedQuantity: 0,
+                isApproximate: false,
+                icon: bp.icon,
+                details: []
+            };
+            
+            const expectedYield = bp.quantity * (bp.chance || 1.0) * craftsNeeded;
+            group.totalExpectedQuantity += expectedYield;
+            
+            if (bp.chance !== undefined && bp.chance < 1.0) {
+                group.isApproximate = true;
+            }
+            
+            group.details.push({
+                quantity: bp.quantity * craftsNeeded,
+                chance: bp.chance
+            });
+            
+            bpMap.set(bp.name, group);
+        }
+        
+        byproducts = Array.from(bpMap.values());
+    }
+
+    const node: CraftingNode = {
         id: nodeIdPrefix,
         name: itemName,
         quantity: actualOutput, // Display the actual amount we will produce
@@ -152,8 +199,15 @@ export function buildCraftingTree(
         level: recipe.level,
         source: recipe.source,
         isRaw: false,
-        children,
+        children: children,
         availableRecipes: availableRecipes,
-        selectedRecipeIdx: Math.min(recipeIdx, availableRecipes.length - 1)
+        selectedRecipeIdx: Math.min(recipeIdx, availableRecipes.length - 1),
+        byproducts
     };
+
+    if (isOutputApproximate) {
+        node.isApproximate = true;
+    }
+
+    return node;
 }

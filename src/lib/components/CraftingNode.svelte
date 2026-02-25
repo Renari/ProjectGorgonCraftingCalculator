@@ -1,8 +1,8 @@
 <script lang="ts">
   import { Handle, Position } from '@xyflow/svelte';
-  import type { Recipe } from '../types';
+  import type { Recipe, ByproductGroup } from '../types';
   import { getIconUrl } from '../utils';
-  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[] };
+  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[], byproducts?: ByproductGroup[] };
 
   function extractSources(sourceStr?: string) {
     if (!sourceStr) return null;
@@ -54,10 +54,40 @@
       <img src={getIconUrl(data.icon)} alt={data.label} class="icon" />
     {/if}
     <div class="title">{data.label}</div>
-    <div class="qty" class:approx={data.isApproximate} title={data.isApproximate ? "Approximated requirement based on chance to consume." : ""}>
+    <div class="qty" class:approx={data.isApproximate} title={data.isApproximate ? "Approximated requirement based on calculated yields." : ""}>
       {data.isApproximate ? '≈' : 'x'}{data.quantity}
     </div>
   </div>
+
+  {#if data.byproducts && data.byproducts.length > 0}
+    <div class="byproducts">
+      <div class="bp-header">Also Produces:</div>
+      <div class="bp-list">
+        {#each data.byproducts as bpGroup}
+          <details class="bp-group">
+            <summary class="bp-item bp-summary">
+              {#if bpGroup.icon}
+                <img src={getIconUrl(bpGroup.icon)} alt={bpGroup.name} class="bp-icon"/>
+              {/if}
+              <span class="bp-name">{bpGroup.name} <span class="bp-qty" class:approx={bpGroup.isApproximate}>{bpGroup.isApproximate ? '≈' + (bpGroup.totalExpectedQuantity).toFixed(1).replace(/\.0$/, '') : 'x' + Math.floor(bpGroup.totalExpectedQuantity)}</span></span>
+            </summary>
+            <div class="bp-details-list">
+              {#each bpGroup.details as detail}
+                <div class="bp-detail-item">
+                  <span class="bp-qty" class:approx={detail.chance !== undefined}>x{Math.round(detail.quantity)}</span>
+                  {#if detail.chance}
+                    <span class="bp-chance" title="{(detail.chance * 100).toFixed(0)}% chance to produce per craft">{(detail.chance * 100).toFixed(0)}%</span>
+                  {:else}
+                    <span class="bp-chance guaranteed">100%</span>
+                  {/if}
+                </div>
+              {/each}
+            </div>
+          </details>
+        {/each}
+      </div>
+    </div>
+  {/if}
   
   {#if !data.isRaw}
     {#if data.profession}
@@ -182,6 +212,109 @@
     height: 24px;
     object-fit: contain;
     border-radius: 4px;
+  }
+
+  .byproducts {
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .bp-header {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+  }
+
+  .bp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .bp-group {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .bp-summary {
+    cursor: pointer;
+    padding: 4px 6px;
+    user-select: none;
+    transition: background 0.1s;
+    list-style: none; /* Hide default arrow */
+  }
+  
+  .bp-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .bp-summary:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .bp-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .bp-details-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 6px 6px 6px 32px;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .bp-detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+
+  .bp-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  .bp-name {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bp-qty {
+    color: var(--accent);
+    font-weight: 500;
+  }
+  
+  .bp-qty.approx {
+    color: #ffd33d;
+  }
+
+  .bp-chance {
+    color: var(--text-main);
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-weight: 500;
+  }
+  
+  .bp-chance.guaranteed {
+    background: rgba(86, 211, 100, 0.15);
+    color: #56d364;
   }
 
   .profession-badge {

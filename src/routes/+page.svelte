@@ -156,8 +156,17 @@
     g.setGraph({ rankdir: 'LR', nodesep: 50, edgesep: 50, ranksep: 150 });
 
     nodesArr.forEach(node => {
-      // Approximate node size
-      g.setNode(node.id, { width: 220, height: 100 });
+      // Calculate dynamic node heights to prevent layout overlap
+      let h = 90;
+      if (node.data) {
+        if (node.data.byproducts && node.data.byproducts.length > 0) {
+          h += 30 + (node.data.byproducts.length * 28);
+        }
+        if (node.data.profession || node.data.isRaw || node.data.obtainingMethods) {
+          h += 36;
+        }
+      }
+      g.setNode(node.id, { width: 230, height: h });
     });
 
     edgesArr.forEach(edge => {
@@ -173,8 +182,8 @@
         targetPosition: node.targetPosition,
         sourcePosition: node.sourcePosition,
         position: {
-          x: nodeWithPosition.x - 110, // offset half width
-          y: nodeWithPosition.y - 50   // offset half height
+          x: nodeWithPosition.x - (nodeWithPosition.width / 2),
+          y: nodeWithPosition.y - (nodeWithPosition.height / 2)
         }
       };
     });

@@ -8486,7 +8486,8 @@
       {
         "name": "Gold Ore",
         "quantity": 1,
-        "icon": "icon_5580.png"
+        "icon": "icon_5580.png",
+        "chance": 0.25
       }
     ],
     "source": "Item: Blacksmithing: Combining Gold Nuggets"
@@ -9878,7 +9879,8 @@
       {
         "name": "Gold Ore",
         "quantity": 1,
-        "icon": "icon_5580.png"
+        "icon": "icon_5580.png",
+        "chance": 0.5
       }
     ],
     "source": "Training: Solgribue"
@@ -15402,17 +15404,20 @@
       {
         "name": "Sugar",
         "quantity": 1,
-        "icon": "icon_5468.png"
+        "icon": "icon_5468.png",
+        "chance": 0.5
       },
       {
         "name": "Sugar",
         "quantity": 1,
-        "icon": "icon_5468.png"
+        "icon": "icon_5468.png",
+        "chance": 0.25
       },
       {
         "name": "Sugar",
         "quantity": 1,
-        "icon": "icon_5468.png"
+        "icon": "icon_5468.png",
+        "chance": 0.1
       }
     ],
     "source": "Training: Hiral"
@@ -17015,7 +17020,8 @@
       {
         "name": "Bonus Fishy Surprise",
         "quantity": 1,
-        "icon": "icon_5132.png"
+        "icon": "icon_5132.png",
+        "chance": 0.1
       }
     ],
     "source": "Training: Fainor"
@@ -22490,7 +22496,8 @@
       {
         "name": "Orcish Flour",
         "quantity": 1,
-        "icon": "icon_6737.png"
+        "icon": "icon_6737.png",
+        "chance": 0.2
       }
     ],
     "source": "Effect: is unknown"

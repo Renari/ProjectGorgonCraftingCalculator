@@ -8,6 +8,7 @@ export interface RecipeIngredient {
 export interface RecipeResult {
     name: string;
     quantity: number;
+    chance?: number;
     icon?: string;
 }
 
@@ -17,6 +18,19 @@ export interface Recipe {
     ingredients: RecipeIngredient[];
     results: RecipeResult[];
     source: string;
+}
+
+export interface ByproductDetail {
+    quantity: number;
+    chance?: number;
+}
+
+export interface ByproductGroup {
+    name: string;
+    totalExpectedQuantity: number;
+    isApproximate?: boolean;
+    icon?: string;
+    details: ByproductDetail[];
 }
 
 export interface CraftingNode {
@@ -33,6 +47,7 @@ export interface CraftingNode {
     selectedRecipeIdx?: number;
     isApproximate?: boolean;
     obtainingMethods?: ObtainingMethod[];
+    byproducts?: ByproductGroup[];
 }
 
 export interface ObtainingMethod {
