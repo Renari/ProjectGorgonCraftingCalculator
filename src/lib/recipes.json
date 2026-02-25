@@ -26079,5 +26079,1248 @@
       }
     ],
     "source": "Item: Cheesemaking: Blue-Whisker Cheese"
+  },
+  {
+    "profession": "Mycology",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Field Mushroom",
+        "quantity": 2,
+        "icon": "icon_5004.png"
+      },
+      {
+        "name": "Perch",
+        "quantity": 1,
+        "icon": "icon_5048.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 2,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Wolfsbane",
+        "quantity": 3,
+        "icon": "icon_5042.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Lycanspore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Quest : Wolfsbane Needed Training: Landri the Cold"
+  },
+  {
+    "profession": "Mycology",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Parasol Mushroom",
+        "quantity": 2,
+        "icon": "icon_5001.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      }
+    ],
+    "source": "Gift: Riger's Book Quest : Pile of Parasols Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Parasol Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5145.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Parasol Mushroom",
+        "quantity": 2,
+        "icon": "icon_5001.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Spore Bomb",
+        "quantity": 2,
+        "icon": "icon_5684.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom",
+        "quantity": 2,
+        "icon": "icon_5002.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Mycena Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Mycena Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Stomach",
+        "quantity": 1,
+        "icon": "icon_5443.png"
+      },
+      {
+        "name": "Mycena Mushroom Suspension",
+        "quantity": 2,
+        "icon": "icon_5146.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Rennet",
+        "quantity": 2,
+        "icon": "icon_5145.png"
+      }
+    ],
+    "source": "Training: Braigon"
+  },
+  {
+    "profession": "Mycology",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Boletus Mushroom",
+        "quantity": 2,
+        "icon": "icon_5003.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Boletus Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Boletus Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Boletus Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5147.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Parasol Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5145.png"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dimensional Folder",
+        "quantity": 1,
+        "icon": "icon_5435.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Charles Thompson"
+  },
+  {
+    "profession": "Mycology",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Field Mushroom",
+        "quantity": 2,
+        "icon": "icon_5004.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Field Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Field Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Field Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom",
+        "quantity": 2,
+        "icon": "icon_5002.png"
+      },
+      {
+        "name": "Clownfish",
+        "quantity": 1,
+        "icon": "icon_5052.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Potent Spore Bomb",
+        "quantity": 2,
+        "icon": "icon_5685.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ruggedizer",
+        "quantity": 1,
+        "icon": "icon_5903.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Charles Thompson"
+  },
+  {
+    "profession": "Mycology",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom",
+        "quantity": 2,
+        "icon": "icon_5005.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blusher Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5018.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5018.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blusher Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      },
+      {
+        "name": "Beet",
+        "quantity": 1,
+        "icon": "icon_5101.png"
+      },
+      {
+        "name": "Tuft of Fur",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Life or Death Potion",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      }
+    ],
+    "source": "Training: Charles Thompson"
+  },
+  {
+    "profession": "Mycology",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      },
+      {
+        "name": "Cinnamon",
+        "quantity": 1,
+        "icon": "icon_5406.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Myconutmeg",
+        "quantity": 1,
+        "icon": "icon_5892.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Charles Thompson"
+  },
+  {
+    "profession": "Mycology",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Stomach",
+        "quantity": 1,
+        "icon": "icon_5443.png"
+      },
+      {
+        "name": "Field Mushroom Suspension",
+        "quantity": 2,
+        "icon": "icon_5148.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Strong Rennet",
+        "quantity": 2,
+        "icon": "icon_5146.png"
+      }
+    ],
+    "source": "Training: Braigon"
+  },
+  {
+    "profession": "Mycology",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      },
+      {
+        "name": "Myconian Jelly",
+        "quantity": 1,
+        "icon": "icon_5988.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Thunderclap Potion",
+        "quantity": 1,
+        "icon": "icon_5436.png"
+      }
+    ],
+    "source": "Training: Charles Thompson"
+  },
+  {
+    "profession": "Mycology",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Boletus Mushroom",
+        "quantity": 2,
+        "icon": "icon_5003.png"
+      },
+      {
+        "name": "Perch",
+        "quantity": 1,
+        "icon": "icon_5048.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Deadly Spore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Training: Jaw Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Milk Cap Mushroom",
+        "quantity": 2,
+        "icon": "icon_5006.png"
+      },
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Milk Cap Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Milk Cap Mushroom Powder",
+        "quantity": 2,
+        "icon": "icon_5013.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Milk Cap Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5150.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Blood Mushroom",
+        "quantity": 2,
+        "icon": "icon_5007.png"
+      },
+      {
+        "name": "Mycena Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blood Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5014.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Blood Mushroom Powder",
+        "quantity": 2,
+        "icon": "icon_5014.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blood Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5388.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Mycology",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Stomach",
+        "quantity": 1,
+        "icon": "icon_5443.png"
+      },
+      {
+        "name": "Blood Mushroom Suspension",
+        "quantity": 2,
+        "icon": "icon_5146.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pungent Rennet",
+        "quantity": 2,
+        "icon": "icon_5147.png"
+      }
+    ],
+    "source": "Training: Braigon"
+  },
+  {
+    "profession": "Mycology",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Field Mushroom",
+        "quantity": 4,
+        "icon": "icon_5004.png"
+      },
+      {
+        "name": "Pyrite",
+        "quantity": 1,
+        "icon": "icon_5590.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Malevolent Spore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Mycology",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Glazed Beets",
+        "quantity": 1,
+        "icon": "icon_5129.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Glazed Beets",
+        "quantity": 1,
+        "icon": "icon_5129.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 37,
+    "ingredients": [
+      {
+        "name": "Banana Bread",
+        "quantity": 1,
+        "icon": "icon_5111.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Banana Bread",
+        "quantity": 1,
+        "icon": "icon_5111.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 39,
+    "ingredients": [
+      {
+        "name": "Apple Juice",
+        "quantity": 1,
+        "icon": "icon_5396.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Apple Juice",
+        "quantity": 1,
+        "icon": "icon_5396.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Coral Mushroom",
+        "quantity": 2,
+        "icon": "icon_5020.png"
+      },
+      {
+        "name": "Boletus Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Coral Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Coral Mushroom Powder",
+        "quantity": 2,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Coral Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5389.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Mycology",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Uncrossing Oil",
+        "quantity": 1,
+        "icon": "icon_5191.png"
+      },
+      {
+        "name": "Blood Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 3,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Healing Potion Omega",
+        "quantity": 2,
+        "icon": "icon_5957.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Yagreet"
+  },
+  {
+    "profession": "Mycology",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Iocaine Powder",
+        "quantity": 2,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Milk Cap Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5150.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Milk Cap Mushroom Smoothie",
+        "quantity": 1,
+        "icon": "icon_5150.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack"
+  },
+  {
+    "profession": "Mycology",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Iocaine Mushroom",
+        "quantity": 2,
+        "icon": "icon_5008.png"
+      },
+      {
+        "name": "Field Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Iocaine Powder",
+        "quantity": 2,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "source": "Training: Mushroom Jack Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Iocaine Mushroom",
+        "quantity": 2,
+        "icon": "icon_5008.png"
+      },
+      {
+        "name": "Milk Cap Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      },
+      {
+        "name": "Boletus Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Iocaine Practice Dose",
+        "quantity": 3,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 41,
+    "ingredients": [
+      {
+        "name": "Grilled Chicken",
+        "quantity": 1,
+        "icon": "icon_5225.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Grilled Chicken",
+        "quantity": 1,
+        "icon": "icon_5225.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 43,
+    "ingredients": [
+      {
+        "name": "Fried Banana",
+        "quantity": 1,
+        "icon": "icon_5767.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fried Banana",
+        "quantity": 1,
+        "icon": "icon_5767.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom",
+        "quantity": 4,
+        "icon": "icon_5005.png"
+      },
+      {
+        "name": "Pyrite",
+        "quantity": 1,
+        "icon": "icon_5590.png"
+      },
+      {
+        "name": "Crab Meat",
+        "quantity": 1,
+        "icon": "icon_5033.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Horrific Spore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Mycology",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Cheesy Veggie Delight",
+        "quantity": 1,
+        "icon": "icon_5130.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cheesy Veggie Delight",
+        "quantity": 1,
+        "icon": "icon_5130.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 47,
+    "ingredients": [
+      {
+        "name": "Groxmax Mushroom",
+        "quantity": 2,
+        "icon": "icon_5694.png"
+      },
+      {
+        "name": "Blusher Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5018.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Groxmax Powder",
+        "quantity": 1,
+        "icon": "icon_5014.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 47,
+    "ingredients": [
+      {
+        "name": "Crab Roll",
+        "quantity": 1,
+        "icon": "icon_5319.png"
+      },
+      {
+        "name": "Iocaine Powder",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Crab Roll",
+        "quantity": 1,
+        "icon": "icon_5319.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Groxmax Mushroom",
+        "quantity": 4,
+        "icon": "icon_5694.png"
+      },
+      {
+        "name": "Deer Guts",
+        "quantity": 1,
+        "icon": "icon_5637.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Disastrous Spore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Mycology",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Porcini Mushroom",
+        "quantity": 2,
+        "icon": "icon_5695.png"
+      },
+      {
+        "name": "Milk Cap Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Porcini Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 63,
+    "ingredients": [
+      {
+        "name": "Black Foot Morel",
+        "quantity": 2,
+        "icon": "icon_5696.png"
+      },
+      {
+        "name": "Blood Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5014.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Black Foot Morel Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      }
+    ],
+    "source": "Training: Voo"
+  },
+  {
+    "profession": "Mycology",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Black Foot Morel",
+        "quantity": 4,
+        "icon": "icon_5696.png"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "quantity": 1,
+        "icon": "icon_5646.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Nightmarish Spore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Mycology",
+    "level": 90,
+    "ingredients": [
+      {
+        "name": "Pixie's Parasol",
+        "quantity": 4,
+        "icon": "icon_5697.png"
+      },
+      {
+        "name": "Toxic Frog Skin",
+        "quantity": 1,
+        "icon": "icon_6457.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ruinous Spore Bomb",
+        "quantity": 3,
+        "icon": "icon_5686.png"
+      }
+    ],
+    "source": "Item: Mycology: Spore Bomb 8"
   }
 ]
