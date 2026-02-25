@@ -27322,5 +27322,1200 @@
       }
     ],
     "source": "Item: Mycology: Spore Bomb 8"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cotton",
+        "quantity": 5,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Cotton",
+        "quantity": 5,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png",
+        "chance": 0.35
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 3,
+    "ingredients": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 2,
+        "icon": "icon_5362.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Cotton",
+        "quantity": 2,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Canvas",
+        "quantity": 1,
+        "icon": "icon_5939.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Butter Muslin",
+        "quantity": 1,
+        "icon": "icon_5327.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Cloth Dyeable Armor",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dye Cloth Armor (1 color)",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Elaina Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 6,
+    "ingredients": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 2,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Spider Silk",
+        "quantity": 1,
+        "icon": "icon_5553.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 7,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Cotton",
+        "quantity": 1,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Butter Muslin",
+        "quantity": 1,
+        "icon": "icon_5327.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 9,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Flower Wrap",
+        "quantity": 2,
+        "icon": "icon_5942.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 2,
+        "icon": "icon_5363.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 12,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Cotton",
+        "quantity": 1,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cheesecloth",
+        "quantity": 1,
+        "icon": "icon_5329.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 12,
+    "ingredients": [
+      {
+        "name": "Basic Spider Silk",
+        "quantity": 1,
+        "icon": "icon_5553.png"
+      },
+      {
+        "name": "Canvas",
+        "quantity": 1,
+        "icon": "icon_5939.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Blanket",
+        "quantity": 1,
+        "icon": "icon_5704.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 13,
+    "ingredients": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      }
+    ],
+    "source": "Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 13,
+    "ingredients": [
+      {
+        "name": "Spiderweb",
+        "quantity": 1,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      }
+    ],
+    "source": "Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 2,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Breadcloth",
+        "quantity": 1,
+        "icon": "icon_5941.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 3,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Spider Silk",
+        "quantity": 1,
+        "icon": "icon_5554.png"
+      }
+    ],
+    "source": "Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Cotton Thread",
+        "quantity": 1,
+        "icon": "icon_5938.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Voile Muslin",
+        "quantity": 1,
+        "icon": "icon_5328.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 22,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 1,
+        "icon": "icon_5073.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cotton Thread",
+        "quantity": 4,
+        "icon": "icon_5938.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 24,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 3,
+        "icon": "icon_5989.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Flower Banding",
+        "quantity": 3,
+        "icon": "icon_5943.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 3,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "String",
+        "quantity": 4,
+        "icon": "icon_5312.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Saddle Blanket",
+        "quantity": 1,
+        "icon": "icon_6479.png"
+      }
+    ],
+    "source": "Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Cotton",
+        "quantity": 5,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png",
+        "chance": 0.5
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Cheesecloth",
+        "quantity": 1,
+        "icon": "icon_5329.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Cloth Dyeable Armor",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dye Cloth Armor (2 colors)",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Elaina Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Cotton Thread",
+        "quantity": 1,
+        "icon": "icon_5938.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fine Cheesecloth",
+        "quantity": 1,
+        "icon": "icon_5330.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 4,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Strong Spider Silk",
+        "quantity": 1,
+        "icon": "icon_5555.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Fae Silk",
+        "quantity": 1,
+        "icon": "icon_6293.png"
+      },
+      {
+        "name": "Cotton Thread",
+        "quantity": 1,
+        "icon": "icon_5938.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Silk Blanket",
+        "quantity": 1,
+        "icon": "icon_5704.png"
+      }
+    ],
+    "source": "Quest: Auto-Clamp Safety Blanket"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      },
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 5,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Extreme Spider Silk",
+        "quantity": 1,
+        "icon": "icon_5556.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 3,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "String",
+        "quantity": 2,
+        "icon": "icon_5312.png"
+      },
+      {
+        "name": "Horse Ruby",
+        "quantity": 1,
+        "icon": "icon_6609.png"
+      },
+      {
+        "name": "Gem Crusher",
+        "quantity": 1,
+        "icon": "icon_5379.png",
+        "consume_chance": 0.05
+      }
+    ],
+    "results": [
+      {
+        "name": "Pastoral Mare Blanket",
+        "quantity": 1,
+        "icon": "icon_6610.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Cotton",
+        "quantity": 4,
+        "icon": "icon_5360.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png",
+        "chance": 0.5
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      },
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 6,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Incredible Spider Silk",
+        "quantity": 1,
+        "icon": "icon_5557.png"
+      }
+    ],
+    "source": "Training: George Madler Training: Legs"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Flax",
+        "quantity": 2,
+        "icon": "icon_6576.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Retting Bundle",
+        "quantity": 1,
+        "icon": "icon_5116.png"
+      },
+      {
+        "name": "Retting Bundle",
+        "quantity": 1,
+        "icon": "icon_5116.png",
+        "chance": 0.5
+      }
+    ],
+    "source": "Item: Textiles: The Basics of Linencraft Training: Inella"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 3,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "String",
+        "quantity": 4,
+        "icon": "icon_5312.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Robust Saddle Blanket",
+        "quantity": 1,
+        "icon": "icon_6479.png"
+      }
+    ],
+    "source": "Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 2,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      },
+      {
+        "name": "Horse Ruby",
+        "quantity": 1,
+        "icon": "icon_6609.png"
+      },
+      {
+        "name": "Gem Crusher",
+        "quantity": 1,
+        "icon": "icon_5379.png",
+        "consume_chance": 0.05
+      }
+    ],
+    "results": [
+      {
+        "name": "Rustic Mare Blanket",
+        "quantity": 1,
+        "icon": "icon_6611.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Fine Cheesecloth",
+        "quantity": 1,
+        "icon": "icon_5330.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Cloth Dyeable Armor",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dye Cloth Armor (3 colors)",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Elaina Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Fae Mollusc Slime",
+        "quantity": 2,
+        "icon": "icon_6292.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Silk",
+        "quantity": 1,
+        "icon": "icon_6293.png"
+      },
+      {
+        "name": "Fae Silk",
+        "quantity": 1,
+        "icon": "icon_6293.png",
+        "chance": 0.2
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Hang Out: Felmer"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Retted Flax",
+        "quantity": 1,
+        "icon": "icon_6584.png"
+      },
+      {
+        "name": "Coarse Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5362.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Linen",
+        "quantity": 1,
+        "icon": "icon_6583.png"
+      }
+    ],
+    "source": "Item: Textiles: The Basics of Linencraft Training: Inella"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Linen",
+        "quantity": 2,
+        "icon": "icon_6583.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      },
+      {
+        "name": "Horse Ruby",
+        "quantity": 1,
+        "icon": "icon_6609.png"
+      },
+      {
+        "name": "Gem Crusher",
+        "quantity": 1,
+        "icon": "icon_5379.png",
+        "consume_chance": 0.05
+      }
+    ],
+    "results": [
+      {
+        "name": "Cozy Mare Blanket",
+        "quantity": 1,
+        "icon": "icon_6612.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 60,
+    "ingredients": [
+      {
+        "name": "Retted Flax",
+        "quantity": 1,
+        "icon": "icon_6584.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      },
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Sturdy Linen",
+        "quantity": 1,
+        "icon": "icon_6585.png"
+      }
+    ],
+    "source": "Item: Textiles: Sturdy Linen Training: Inella"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 65,
+    "ingredients": [
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Fae Silk",
+        "quantity": 2,
+        "icon": "icon_6293.png"
+      },
+      {
+        "name": "String",
+        "quantity": 4,
+        "icon": "icon_5312.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Impressive Saddle Blanket",
+        "quantity": 1,
+        "icon": "icon_6479.png"
+      }
+    ],
+    "source": "Training: George Madler"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 65,
+    "ingredients": [
+      {
+        "name": "Sturdy Linen",
+        "quantity": 2,
+        "icon": "icon_6585.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      },
+      {
+        "name": "Horse Ruby",
+        "quantity": 1,
+        "icon": "icon_6609.png"
+      },
+      {
+        "name": "Gem Crusher",
+        "quantity": 1,
+        "icon": "icon_5379.png",
+        "consume_chance": 0.05
+      }
+    ],
+    "results": [
+      {
+        "name": "Sleek Mare Blanket",
+        "quantity": 1,
+        "icon": "icon_6613.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Sturdy Linen",
+        "quantity": 1,
+        "icon": "icon_6585.png"
+      },
+      {
+        "name": "Fae Linen",
+        "quantity": 1,
+        "icon": "icon_6586.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      },
+      {
+        "name": "Horse Ruby",
+        "quantity": 1,
+        "icon": "icon_6609.png"
+      },
+      {
+        "name": "Gem Crusher",
+        "quantity": 1,
+        "icon": "icon_5379.png",
+        "consume_chance": 0.05
+      }
+    ],
+    "results": [
+      {
+        "name": "Cooling Mare Blanket",
+        "quantity": 1,
+        "icon": "icon_6614.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Carded Cotton",
+        "quantity": 1,
+        "icon": "icon_5361.png"
+      },
+      {
+        "name": "Perfect Cotton",
+        "quantity": 1,
+        "icon": "icon_5359.png"
+      },
+      {
+        "name": "Fae Mollusc Slime",
+        "quantity": 1,
+        "icon": "icon_6292.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 3,
+        "icon": "icon_5073.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Enhanced Yarn",
+        "quantity": 3,
+        "icon": "icon_6573.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Retted Flax",
+        "quantity": 1,
+        "icon": "icon_6584.png"
+      },
+      {
+        "name": "Huge Fae Honeycomb",
+        "quantity": 1,
+        "icon": "icon_6275.png"
+      },
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 1,
+        "icon": "icon_5363.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Linen",
+        "quantity": 1,
+        "icon": "icon_6586.png"
+      },
+      {
+        "name": "Fae Linen",
+        "quantity": 1,
+        "icon": "icon_6586.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Item: Textiles: Fae Linen Training: Inella"
+  },
+  {
+    "profession": "Textile Creation",
+    "level": 75,
+    "ingredients": [
+      {
+        "name": "Fae Linen",
+        "quantity": 2,
+        "icon": "icon_6586.png"
+      },
+      {
+        "name": "Wool",
+        "quantity": 1,
+        "icon": "icon_5989.png"
+      },
+      {
+        "name": "Horse Ruby",
+        "quantity": 1,
+        "icon": "icon_6609.png"
+      },
+      {
+        "name": "Gem Crusher",
+        "quantity": 1,
+        "icon": "icon_5379.png",
+        "consume_chance": 0.05
+      }
+    ],
+    "results": [
+      {
+        "name": "Svelte Mare Blanket",
+        "quantity": 1,
+        "icon": "icon_6615.png"
+      }
+    ],
+    "source": "Training: Dunahain Broadarm"
   }
 ]
