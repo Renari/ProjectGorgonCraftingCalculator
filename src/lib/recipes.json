@@ -28517,5 +28517,4838 @@
       }
     ],
     "source": "Training: Dunahain Broadarm"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Any Bone",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Bone Meal",
+        "quantity": 1,
+        "icon": "icon_5292.png"
+      }
+    ],
+    "source": "Training: Julius Patton Training: Therese"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Humanoid Skull",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Bone Meal",
+        "quantity": 2,
+        "icon": "icon_5292.png"
+      }
+    ],
+    "source": "Training: Julius Patton Training: Therese"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Healing Potion",
+        "quantity": 1,
+        "icon": "icon_5955.png"
+      }
+    ],
+    "source": "Gift: 101 Uses For Spider Eggs"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Parasol Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5145.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pick-Me-Up Juice",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Gift: Riger's Book Quest : Pile of Parasols"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Poison Protection Potion",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Gift: 101 Uses For Spider Eggs"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Poison Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Quest : Their Hairy Legs"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Large Strawberry",
+        "quantity": 1,
+        "icon": "icon_5066.png"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      }
+    ],
+    "source": "Item: Alchemy: So You Want To Be An Alchemist Gift: Riger's Book Quest : Pile of Parasols"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 1,
+        "icon": "icon_5073.png"
+      },
+      {
+        "name": "Basic Spore Bomb",
+        "quantity": 1,
+        "icon": "icon_5684.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Thin Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      }
+    ],
+    "source": "Item: Alchemy: Safe Brain Boosts For Beginners"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Basic Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Volatile Ink",
+        "quantity": 5,
+        "icon": "icon_5884.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 1"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Clownfish Fillet",
+        "quantity": 1,
+        "icon": "icon_5036.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Bleeding Speed Potion",
+        "quantity": 1,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Item: Alchemy: Ignite The Fire In Your Legs!"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Brain Bug Lobe",
+        "quantity": 1,
+        "icon": "icon_5990.png"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      },
+      {
+        "name": "Brain",
+        "quantity": 1,
+        "icon": "icon_5167.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cranium Powder",
+        "quantity": 1,
+        "icon": "icon_5279.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fire Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Gift: Dalvos' Lab Notes"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Bluebell",
+        "quantity": 2,
+        "icon": "icon_5042.png"
+      },
+      {
+        "name": "Red Aster",
+        "quantity": 1,
+        "icon": "icon_5043.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 3,
+        "icon": "icon_5468.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Floral Soap",
+        "quantity": 1,
+        "icon": "icon_5992.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Hang Out : Rita"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Mycena Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Beak",
+        "quantity": 1,
+        "icon": "icon_5237.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rage Ointment",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Training: Yetta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 2,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Spider Speed Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Gift: 101 Uses For Spider Eggs"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 7,
+    "ingredients": [
+      {
+        "name": "Basic Ink",
+        "quantity": 3,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Antler",
+        "quantity": 1,
+        "icon": "icon_5076.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Holistic Ink",
+        "quantity": 3,
+        "icon": "icon_5885.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 1"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 9,
+    "ingredients": [
+      {
+        "name": "Basic Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Basic Caustic Ink",
+        "quantity": 5,
+        "icon": "icon_5886.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 1"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Boletus Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Boletus Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5147.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Nightmare Flesh",
+        "quantity": 1,
+        "icon": "icon_5081.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Cold Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5153.png"
+      }
+    ],
+    "source": "Gift: Dalvos' Lab Notes"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Quality Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dirt Shield Potion",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Item: Alchemy: Dirt Shield Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Brass Nail",
+        "quantity": 1,
+        "icon": "icon_5194.png"
+      },
+      {
+        "name": "Eel Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Electricity Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Gift: Dalvos' Lab Notes"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Mycena Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Heart",
+        "quantity": 1,
+        "icon": "icon_5168.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 5,
+        "icon": "icon_5468.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Make-Me-Strong Juice",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Item: Alchemy: Better Pick-Me-Ups"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Memory Inhibitor",
+        "quantity": 2,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Training: Yetta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Memory Inhibitor",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      },
+      {
+        "name": "Peridot",
+        "quantity": 1,
+        "icon": "icon_5220.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Perfect Memory Inhibitor",
+        "quantity": 2,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Hang Out : Yetta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Brain",
+        "quantity": 1,
+        "icon": "icon_5167.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Thin Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pineal Juice",
+        "quantity": 1,
+        "icon": "icon_5896.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      },
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Raw Oyster",
+        "quantity": 1,
+        "icon": "icon_6312.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Water Lung Potion",
+        "quantity": 1,
+        "icon": "icon_5436.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Water Lung Potion Training: Squidlips"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Weak Poisoned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Weak Poison For Knives"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 12,
+    "ingredients": [
+      {
+        "name": "Grass",
+        "quantity": 1,
+        "icon": "icon_5057.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Bounceweed",
+        "quantity": 1,
+        "icon": "icon_5544.png"
+      }
+    ],
+    "source": "Training: Daisy_(NPC)"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 12,
+    "ingredients": [
+      {
+        "name": "Mycena Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      },
+      {
+        "name": "Mandrake Root",
+        "quantity": 1,
+        "icon": "icon_5072.png"
+      },
+      {
+        "name": "Scray Stinger",
+        "quantity": 1,
+        "icon": "icon_5426.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Energy Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Item: Alchemy: Energy Resistance Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 13,
+    "ingredients": [
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      },
+      {
+        "name": "Cheap Meat",
+        "quantity": 10,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Rotten Meat",
+        "quantity": 10,
+        "icon": "icon_5067.png"
+      }
+    ],
+    "source": "Training: Kelim"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Advanced Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Advanced Volatile Ink",
+        "quantity": 5,
+        "icon": "icon_5884.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 2"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Bottle of Fertilizer",
+        "quantity": 1,
+        "icon": "icon_5092.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Coldbite Potion",
+        "quantity": 1,
+        "icon": "icon_5904.png"
+      }
+    ],
+    "source": "Hang Out : Landri the Cold"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Field Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Field Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Mandrake Root",
+        "quantity": 1,
+        "icon": "icon_5072.png"
+      },
+      {
+        "name": "Onion",
+        "quantity": 1,
+        "icon": "icon_5024.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Gillpuncher Ointment",
+        "quantity": 1,
+        "icon": "icon_5901.png"
+      }
+    ],
+    "source": "Item: Alchemy: Gillpuncher Ointment"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Pickled Brain",
+        "quantity": 1,
+        "icon": "icon_5469.png"
+      },
+      {
+        "name": "Red Apple",
+        "quantity": 1,
+        "icon": "icon_5137.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Psychic Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Gift: Instruction Manual"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Brain Bug Lobe",
+        "quantity": 2,
+        "icon": "icon_5990.png"
+      },
+      {
+        "name": "Onion",
+        "quantity": 2,
+        "icon": "icon_5024.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pure Cranium Powder",
+        "quantity": 1,
+        "icon": "icon_5280.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Memory Inhibitor",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      },
+      {
+        "name": "Rage Ointment",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rage Inhibitor",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Yetta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 1,
+        "icon": "icon_5073.png"
+      },
+      {
+        "name": "Potent Spore Bomb",
+        "quantity": 1,
+        "icon": "icon_5685.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Thick Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      }
+    ],
+    "source": "Item: Alchemy: Safe Brain Boosts For Beginners"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      },
+      {
+        "name": "Beak",
+        "quantity": 1,
+        "icon": "icon_5237.png"
+      },
+      {
+        "name": "Toxic Sludge",
+        "quantity": 1,
+        "icon": "icon_5986.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Toxinflesh Ointment",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      }
+    ],
+    "source": "Training: Yetta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 17,
+    "ingredients": [
+      {
+        "name": "Advanced Ink",
+        "quantity": 3,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Rib Bone",
+        "quantity": 1,
+        "icon": "icon_5347.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Advanced Holistic Ink",
+        "quantity": 3,
+        "icon": "icon_5885.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 2"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 19,
+    "ingredients": [
+      {
+        "name": "Advanced Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 2,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Advanced Caustic Ink",
+        "quantity": 5,
+        "icon": "icon_5886.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 2"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 19,
+    "ingredients": [
+      {
+        "name": "Feathers",
+        "quantity": 1,
+        "icon": "icon_5226.png"
+      },
+      {
+        "name": "Mind Enhancement Gem",
+        "quantity": 1,
+        "icon": "icon_5318.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Aiming Potion",
+        "quantity": 1,
+        "icon": "icon_5883.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Pickled Brain",
+        "quantity": 1,
+        "icon": "icon_5469.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Peppercorns",
+        "quantity": 1,
+        "icon": "icon_5332.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Acid Boost Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Gift: Instruction Manual"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Perch Fillet",
+        "quantity": 1,
+        "icon": "icon_5037.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Agonizing Speed Potion",
+        "quantity": 1,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Item: Alchemy: Ignite The Fire In Your Legs!"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5018.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blusher Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 2,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Wing-Change Potion (Types A&B)",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Ambient Magic Sponge",
+        "quantity": 1,
+        "icon": "icon_5351.png"
+      },
+      {
+        "name": "Mind Enhancement Gem",
+        "quantity": 1,
+        "icon": "icon_5318.png"
+      },
+      {
+        "name": "Toxic Sludge",
+        "quantity": 1,
+        "icon": "icon_5986.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ferocity Juice",
+        "quantity": 1,
+        "icon": "icon_5430.png"
+      }
+    ],
+    "source": "Quest : Mana Sponges"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "icon": "icon_5103.png"
+      },
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Hulking Gel",
+        "quantity": 1,
+        "icon": "icon_5156.png"
+      }
+    ],
+    "source": "Item: Alchemy: Overclock Your Heart and Mind"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      },
+      {
+        "name": "Strange Dirt",
+        "quantity": 1,
+        "icon": "icon_5019.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Modest Poisoned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Modest Poison For Knives"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      },
+      {
+        "name": "Parasol Mushroom",
+        "quantity": 5,
+        "icon": "icon_5001.png"
+      },
+      {
+        "name": "Wolfsbane",
+        "quantity": 1,
+        "icon": "icon_5042.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Myconian Resistance Lager",
+        "quantity": 2,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Hang Out : Mushroom Jack"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Brain",
+        "quantity": 2,
+        "icon": "icon_5167.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Thick Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pure Pineal Juice",
+        "quantity": 1,
+        "icon": "icon_5897.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 21,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 2,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Wing-Change Potion (Types C&D)",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 21,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      },
+      {
+        "name": "Wolfsbane",
+        "quantity": 1,
+        "icon": "icon_5042.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Modest Wolfsbaned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Jace Soral Training: Landri the Cold"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 22,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 2,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Wing-Change Potion (Types E&F)",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 23,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 2,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Wing-Change Potion (Types G&H)",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 24,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 2,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Wing-Change Potion (Type I)",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 24,
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "icon": "icon_5103.png"
+      },
+      {
+        "name": "Tuft of Fur",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Northern Bounceweed",
+        "quantity": 1,
+        "icon": "icon_5545.png"
+      }
+    ],
+    "source": "Training: Daisy_(NPC)"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Augmented Mantis Claw",
+        "quantity": 1,
+        "icon": "icon_5075.png"
+      },
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      },
+      {
+        "name": "Field Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Acid Resist Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Brain Bug Lobe",
+        "quantity": 2,
+        "icon": "icon_5990.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Femur",
+        "quantity": 1,
+        "icon": "icon_5055.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Enhanced Cranium Powder",
+        "quantity": 1,
+        "icon": "icon_5281.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Expert Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Expert Volatile Ink",
+        "quantity": 5,
+        "icon": "icon_5884.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 3"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 3,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Hair Color Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 3,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Hair Style Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Zombified Hand",
+        "quantity": 1,
+        "icon": "icon_5407.png"
+      },
+      {
+        "name": "Cat Eyeball",
+        "quantity": 4,
+        "icon": "icon_5187.png"
+      },
+      {
+        "name": "Brain",
+        "quantity": 1,
+        "icon": "icon_5167.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Gruesome Spooky Punch",
+        "quantity": 1,
+        "icon": "icon_5151.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Gruesome Spooky Punch Quest : Zhia Lian Event: Concoct a Gruesome Punch"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Boletus Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Cat Eyeball",
+        "quantity": 1,
+        "icon": "icon_5187.png"
+      },
+      {
+        "name": "Muntok Peppercorns",
+        "quantity": 1,
+        "icon": "icon_5292.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Keep-Me-Alive Juice",
+        "quantity": 1,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Item: The Alchemist's Screams"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Milk Cap Mushroom Powder",
+        "quantity": 2,
+        "icon": "icon_5013.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Milk Cap Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5150.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      },
+      {
+        "name": "Muntok Peppercorns",
+        "quantity": 1,
+        "icon": "icon_5292.png"
+      },
+      {
+        "name": "Mandrake Root",
+        "quantity": 1,
+        "icon": "icon_5072.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Orcish Thickskin Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Item: Alchemy: Orcish Thickskin Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Blusher Mushroom",
+        "quantity": 1,
+        "icon": "icon_5005.png"
+      },
+      {
+        "name": "Pyrite",
+        "quantity": 1,
+        "icon": "icon_5590.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Persona Reducer Potion",
+        "quantity": 1,
+        "icon": "icon_5440.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Viper Fangs",
+        "quantity": 1,
+        "icon": "icon_6215.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 2,
+        "icon": "icon_5082.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Strong Antivenom",
+        "quantity": 1,
+        "icon": "icon_5894.png"
+      }
+    ],
+    "source": "Item: Alchemy: Strong Antivenom"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Brass Nail",
+        "quantity": 1,
+        "icon": "icon_5194.png"
+      },
+      {
+        "name": "Eel Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      },
+      {
+        "name": "Fulgurite",
+        "quantity": 1,
+        "icon": "icon_5350.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Strong Electricity Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5158.png"
+      }
+    ],
+    "source": "Training: Zealo"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Milk Cap Mushroom Powder",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      },
+      {
+        "name": "Eel Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Swimming Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Item: Alchemy: Swimming Potion Training: Squidlips"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Fuel Oil",
+        "quantity": 10,
+        "icon": "icon_5895.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Trollbane Oil",
+        "quantity": 10,
+        "icon": "icon_6243.png"
+      }
+    ],
+    "source": "Item: Alchemy: Trollbane Oil Training: Daisy_(NPC)"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 3,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Pyrite",
+        "quantity": 1,
+        "icon": "icon_5590.png"
+      },
+      {
+        "name": "Fuel Oil",
+        "quantity": 1,
+        "icon": "icon_5895.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Weak Acidic Cleanser",
+        "quantity": 3,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "source": "Item: Alchemy: The Hows and Whys of Acid"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 2,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Weak Acidic Cleanser",
+        "quantity": 2,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "source": "Item: Alchemy: The Hows and Whys of Acid Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 27,
+    "ingredients": [
+      {
+        "name": "Expert Ink",
+        "quantity": 3,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Powdered Mammal",
+        "quantity": 1,
+        "icon": "icon_5392.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Expert Holistic Ink",
+        "quantity": 3,
+        "icon": "icon_5885.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 3"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 29,
+    "ingredients": [
+      {
+        "name": "Expert Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 2,
+        "icon": "icon_5054.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Expert Caustic Ink",
+        "quantity": 5,
+        "icon": "icon_5886.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 3"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Acid Resist Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      },
+      {
+        "name": "Toxic Sludge",
+        "quantity": 1,
+        "icon": "icon_5986.png"
+      },
+      {
+        "name": "Violet",
+        "quantity": 1,
+        "icon": "icon_5044.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Acid Shield Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Blood Mushroom Powder",
+        "quantity": 2,
+        "icon": "icon_5014.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blood Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      }
+    ],
+    "source": "Training: Yagreet"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Bottle of Fertilizer",
+        "quantity": 1,
+        "icon": "icon_5092.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Coldgnaw Potion",
+        "quantity": 1,
+        "icon": "icon_5904.png"
+      }
+    ],
+    "source": "Hang Out : Landri the Cold"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Flour",
+        "quantity": 1,
+        "icon": "icon_5041.png"
+      },
+      {
+        "name": "Antler",
+        "quantity": 1,
+        "icon": "icon_5076.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dangerous Poisoned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Dangerous Poison For Knives"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Lamprey",
+        "quantity": 1,
+        "icon": "icon_6310.png"
+      },
+      {
+        "name": "Eel Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      },
+      {
+        "name": "Pearl",
+        "quantity": 1,
+        "icon": "icon_6313.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Eel Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Brain",
+        "quantity": 3,
+        "icon": "icon_5167.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Beet",
+        "quantity": 1,
+        "icon": "icon_5101.png"
+      },
+      {
+        "name": "Willpower Gel",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Enhanced Pineal Juice",
+        "quantity": 1,
+        "icon": "icon_5898.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 3,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Beard Color Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 3,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Beard Style Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Fire Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fire Shield Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Item: Alchemy: Behold the Fire Shield"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Uncrossing Oil",
+        "quantity": 1,
+        "icon": "icon_5191.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Imatia's Sight Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Imatia's Sight Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Kraken Tendril",
+        "quantity": 1,
+        "icon": "icon_6255.png"
+      },
+      {
+        "name": "Bottle of Sweet Whey",
+        "quantity": 1,
+        "icon": "icon_5331.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      },
+      {
+        "name": "Flour",
+        "quantity": 1,
+        "icon": "icon_5041.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Kraken Power Potion",
+        "quantity": 1,
+        "icon": "icon_5430.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Kraken Power Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 3,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Tungsten",
+        "quantity": 1,
+        "icon": "icon_5581.png"
+      },
+      {
+        "name": "Simple Metal Slab",
+        "quantity": 1,
+        "icon": "icon_5297.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 3,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "source": "Item: Alchemy: The Hows and Whys of Acid"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Antler",
+        "quantity": 1,
+        "icon": "icon_5076.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "source": "Item: Alchemy: The Hows and Whys of Acid Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Swamp Gourd",
+        "quantity": 1,
+        "icon": "icon_6445.png"
+      },
+      {
+        "name": "Tentakiller Gland",
+        "quantity": 1,
+        "icon": "icon_6406.png"
+      },
+      {
+        "name": "Kuvou Poison Sack",
+        "quantity": 1,
+        "icon": "icon_6409.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Swamp Balm",
+        "quantity": 5,
+        "icon": "icon_5894.png"
+      }
+    ],
+    "source": "Training: Leah Bowman"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Beet",
+        "quantity": 1,
+        "icon": "icon_5101.png"
+      },
+      {
+        "name": "Parasol Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Willpower Gel",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      }
+    ],
+    "source": "Item: Alchemy: Overclock Your Heart and Mind"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 31,
+    "ingredients": [
+      {
+        "name": "Amazing Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Volatile Ink",
+        "quantity": 5,
+        "icon": "icon_5884.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 4 Training: Kohan Training: Ufkar"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Amazing Ink",
+        "quantity": 3,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Giant Hairball",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      },
+      {
+        "name": "Advanced Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Holistic Ink",
+        "quantity": 3,
+        "icon": "icon_5885.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 4 Training: Kohan Training: Ufkar"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Crystal Ice",
+        "quantity": 10,
+        "icon": "icon_5658.png"
+      },
+      {
+        "name": "Fairy Dust",
+        "quantity": 4,
+        "icon": "icon_6329.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fae Skin Color Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Leveling"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Milk Cap Mushroom",
+        "quantity": 1,
+        "icon": "icon_5006.png"
+      },
+      {
+        "name": "Persona Reducer Potion",
+        "quantity": 1,
+        "icon": "icon_5440.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Persona Minimizer Potion",
+        "quantity": 1,
+        "icon": "icon_5440.png"
+      }
+    ],
+    "source": "Training: Jaw"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Rage Inhibitor",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      },
+      {
+        "name": "Crab Meat",
+        "quantity": 1,
+        "icon": "icon_5033.png"
+      },
+      {
+        "name": "Femur",
+        "quantity": 1,
+        "icon": "icon_5055.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rage Inhibitor Extreme",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Training: Yetta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Tuft of Fur",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Stringy Dog Meat",
+        "quantity": 1,
+        "icon": "icon_5533.png"
+      },
+      {
+        "name": "Humanoid Skull",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Sanguinizer",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      }
+    ],
+    "source": "Item: Lycanthropic Alchemy: Sanguinizer"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Augmented Mantis Claw",
+        "quantity": 1,
+        "icon": "icon_5075.png"
+      },
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      },
+      {
+        "name": "Pyrite",
+        "quantity": 1,
+        "icon": "icon_5590.png"
+      },
+      {
+        "name": "Field Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Strong Acid Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Training: Zealo"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 4,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Cinnabar",
+        "quantity": 1,
+        "icon": "icon_5593.png"
+      },
+      {
+        "name": "Iridium",
+        "quantity": 1,
+        "icon": "icon_5585.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ultimate Acidic Cleanser",
+        "quantity": 4,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "source": "Item: Alchemy: Potent Acids: Facts and Myths"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 2,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Toxic Sludge",
+        "quantity": 1,
+        "icon": "icon_5986.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ultimate Acidic Cleanser",
+        "quantity": 2,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "source": "Item: Alchemy: Potent Acids: Facts and Myths"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Tuft of Fur",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      },
+      {
+        "name": "Magic Tooth",
+        "quantity": 1,
+        "icon": "icon_5184.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Salt",
+        "quantity": 1,
+        "icon": "icon_5013.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Wolfen Speed Juice",
+        "quantity": 1,
+        "icon": "icon_5905.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Wolfen Speed Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 36,
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "quantity": 1,
+        "icon": "icon_5103.png"
+      },
+      {
+        "name": "Myconian Jelly",
+        "quantity": 1,
+        "icon": "icon_5988.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pure Bounceweed",
+        "quantity": 1,
+        "icon": "icon_5546.png"
+      }
+    ],
+    "source": "Training: Daisy_(NPC)"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Amazing Ink",
+        "quantity": 5,
+        "icon": "icon_5888.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 2,
+        "icon": "icon_5054.png"
+      },
+      {
+        "name": "Advanced Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Caustic Ink",
+        "quantity": 5,
+        "icon": "icon_5886.png"
+      }
+    ],
+    "source": "Item: Alchemy: Inks for Special Occasions Pt 4 Training: Kohan Training: Ufkar"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Fuel Oil",
+        "quantity": 1,
+        "icon": "icon_5895.png"
+      },
+      {
+        "name": "Cat Eyeball",
+        "quantity": 1,
+        "icon": "icon_5187.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Animal Handling Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Feathers",
+        "quantity": 1,
+        "icon": "icon_5226.png"
+      },
+      {
+        "name": "Hatred Oil",
+        "quantity": 1,
+        "icon": "icon_5193.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Archery Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Uncrossing Oil",
+        "quantity": 1,
+        "icon": "icon_5191.png"
+      },
+      {
+        "name": "Beak",
+        "quantity": 1,
+        "icon": "icon_5237.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Bard Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Bear Claw",
+        "quantity": 1,
+        "icon": "icon_5642.png"
+      },
+      {
+        "name": "Oversized Mandible",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Battle Chemistry Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Coral Mushroom Powder",
+        "quantity": 2,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Coral Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      }
+    ],
+    "source": "Training: Yagreet"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Panther Tail",
+        "quantity": 1,
+        "icon": "icon_5641.png"
+      },
+      {
+        "name": "Flour",
+        "quantity": 1,
+        "icon": "icon_5041.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cow Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Brain Bug Lobe",
+        "quantity": 1,
+        "icon": "icon_5990.png"
+      },
+      {
+        "name": "Willpower Gel",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      },
+      {
+        "name": "Heartshroom",
+        "quantity": 1,
+        "icon": "icon_5343.png"
+      },
+      {
+        "name": "Mind Enhancement Gem",
+        "quantity": 1,
+        "icon": "icon_5318.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cranium Balm",
+        "quantity": 1,
+        "icon": "icon_5281.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Gift: Echur"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Antler",
+        "quantity": 1,
+        "icon": "icon_5076.png"
+      },
+      {
+        "name": "Blusher Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5149.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Deer Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Spider Egg",
+        "quantity": 1,
+        "icon": "icon_5825.png"
+      },
+      {
+        "name": "Pig Foot",
+        "quantity": 1,
+        "icon": "icon_5636.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Druid Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Tiger Tail",
+        "quantity": 1,
+        "icon": "icon_5640.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fire Magic Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Guano",
+        "quantity": 1,
+        "icon": "icon_5512.png"
+      },
+      {
+        "name": "Mandrake Root",
+        "quantity": 1,
+        "icon": "icon_5072.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Giant Bat Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Myconian Jelly",
+        "quantity": 1,
+        "icon": "icon_5988.png"
+      },
+      {
+        "name": "Tuft of Fur",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1,
+        "icon": "icon_5468.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Gur-Horta",
+        "quantity": 1,
+        "icon": "icon_5428.png"
+      }
+    ],
+    "source": "Item: Alchemy: Basic Gur-Horta"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Deer Guts",
+        "quantity": 1,
+        "icon": "icon_5637.png"
+      },
+      {
+        "name": "Bone Hook",
+        "quantity": 1,
+        "icon": "icon_5320.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Hammer Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ice Magic Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Iocaine Powder",
+        "quantity": 2,
+        "icon": "icon_5019.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Iocaine Suspension",
+        "quantity": 1,
+        "icon": "icon_5150.png"
+      }
+    ],
+    "source": "Item: Mushroom Suspension Guide"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Worm Tooth",
+        "quantity": 1,
+        "icon": "icon_5290.png"
+      },
+      {
+        "name": "Scray Stinger",
+        "quantity": 1,
+        "icon": "icon_5426.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Knife Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Brain Bug Lobe",
+        "quantity": 1,
+        "icon": "icon_5990.png"
+      },
+      {
+        "name": "Bear Gallbladder",
+        "quantity": 1,
+        "icon": "icon_5643.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Mentalism Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Bone Meal",
+        "quantity": 1,
+        "icon": "icon_5292.png"
+      },
+      {
+        "name": "Mummy Wrapping",
+        "quantity": 1,
+        "icon": "icon_5789.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Necromancy Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Bottle of Sweet Whey",
+        "quantity": 1,
+        "icon": "icon_5331.png"
+      },
+      {
+        "name": "Field Mushroom Flakes",
+        "quantity": 1,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Brain",
+        "quantity": 1,
+        "icon": "icon_5167.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Never-Die Juice",
+        "quantity": 1,
+        "icon": "icon_5156.png"
+      }
+    ],
+    "source": "Item: On Becoming Great Again"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Pig Foot",
+        "quantity": 1,
+        "icon": "icon_5636.png"
+      },
+      {
+        "name": "Field Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Pig Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      },
+      {
+        "name": "Ancient Bronze Coin",
+        "quantity": 1,
+        "icon": "icon_5422.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Potent Poisoned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Potent Poison For Knives"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Orange",
+        "quantity": 1,
+        "icon": "icon_5138.png"
+      },
+      {
+        "name": "Ultra Lac",
+        "quantity": 1,
+        "icon": "icon_5552.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Priest Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Pig Foot",
+        "quantity": 1,
+        "icon": "icon_5636.png"
+      },
+      {
+        "name": "Eyestalk",
+        "quantity": 1,
+        "icon": "icon_5791.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Psychology Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png"
+      },
+      {
+        "name": "Cockatrice Beak",
+        "quantity": 1,
+        "icon": "icon_5237.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rabbit Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Lamprey",
+        "quantity": 1,
+        "icon": "icon_6310.png"
+      },
+      {
+        "name": "Shark Fin",
+        "quantity": 1,
+        "icon": "icon_6315.png"
+      },
+      {
+        "name": "Pearl",
+        "quantity": 1,
+        "icon": "icon_6313.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Shark Potion",
+        "quantity": 1,
+        "icon": "icon_5441.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Boar Tusk",
+        "quantity": 1,
+        "icon": "icon_5635.png"
+      },
+      {
+        "name": "Mandrake Root",
+        "quantity": 1,
+        "icon": "icon_5072.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Shield Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Wasp in Amber",
+        "quantity": 1,
+        "icon": "icon_5756.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Spider Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Dinosaur Eye",
+        "quantity": 1,
+        "icon": "icon_5186.png"
+      },
+      {
+        "name": "Toxic Ice Sludge",
+        "quantity": 1,
+        "icon": "icon_5987.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Staff Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Thick Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      },
+      {
+        "name": "Magic Tooth",
+        "quantity": 1,
+        "icon": "icon_5184.png"
+      },
+      {
+        "name": "Sardonyx",
+        "quantity": 1,
+        "icon": "icon_5206.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Superjump Potion",
+        "quantity": 1,
+        "icon": "icon_5906.png"
+      }
+    ],
+    "source": "Item: Alchemy: Why Not Leap Into the Sky?"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Wolf Tail",
+        "quantity": 1,
+        "icon": "icon_5638.png"
+      },
+      {
+        "name": "Pemphredo Eye",
+        "quantity": 1,
+        "icon": "icon_5186.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Sword Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Fear Oil",
+        "quantity": 1,
+        "icon": "icon_5192.png"
+      },
+      {
+        "name": "Guano",
+        "quantity": 1,
+        "icon": "icon_5512.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Unarmed Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Tuft of Fur",
+        "quantity": 1,
+        "icon": "icon_5185.png"
+      },
+      {
+        "name": "Heart",
+        "quantity": 1,
+        "icon": "icon_5168.png"
+      },
+      {
+        "name": "Dragon Scale",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Warden Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Dirty Snow Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Wolf Teeth",
+        "quantity": 1,
+        "icon": "icon_5639.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Werewolf Boost Potion 20%",
+        "quantity": 1,
+        "icon": "icon_5437.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Ragabir"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 41,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Wolfsbane",
+        "quantity": 1,
+        "icon": "icon_5042.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Potent Wolfsbaned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Jace Soral Training: Landri the Cold"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Magic Tooth",
+        "quantity": 1,
+        "icon": "icon_5184.png"
+      },
+      {
+        "name": "Dog Meat",
+        "quantity": 1,
+        "icon": "icon_5535.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Blood Seeker Ointment",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      }
+    ],
+    "source": "Item: Lycanthropic Alchemy: Blood Seeker Ointment"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Bottle of Fertilizer",
+        "quantity": 1,
+        "icon": "icon_5092.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Coldrend Potion",
+        "quantity": 1,
+        "icon": "icon_5904.png"
+      }
+    ],
+    "source": "Hang Out : Landri the Cold"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Wolfen Speed Juice",
+        "quantity": 1,
+        "icon": "icon_5905.png"
+      },
+      {
+        "name": "Nightmare Flesh",
+        "quantity": 1,
+        "icon": "icon_5081.png"
+      },
+      {
+        "name": "Femur",
+        "quantity": 1,
+        "icon": "icon_5055.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Concentrated Wolfen Speed Juice",
+        "quantity": 1,
+        "icon": "icon_5905.png"
+      }
+    ],
+    "source": "Item: Alchemy: Concentrated Wolfen Speed Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Brain",
+        "quantity": 1,
+        "icon": "icon_5167.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Lemon",
+        "quantity": 2,
+        "icon": "icon_5622.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Faux Pineal Juice",
+        "quantity": 1,
+        "icon": "icon_5898.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Azalak"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 10,
+        "icon": "icon_5054.png"
+      },
+      {
+        "name": "Scallop Shell",
+        "quantity": 1,
+        "icon": "icon_6319.png"
+      },
+      {
+        "name": "Pearl",
+        "quantity": 1,
+        "icon": "icon_6313.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Water Breathing Potion",
+        "quantity": 1,
+        "icon": "icon_5436.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 47,
+    "ingredients": [
+      {
+        "name": "Groxmax Powder",
+        "quantity": 2,
+        "icon": "icon_5014.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Groxmax Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5145.png"
+      }
+    ],
+    "source": "Training: Yagreet"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 48,
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "quantity": 1,
+        "icon": "icon_5135.png"
+      },
+      {
+        "name": "Evil Grass",
+        "quantity": 1,
+        "icon": "icon_5308.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Flour",
+        "quantity": 10,
+        "icon": "icon_5041.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Augmented Bounceweed",
+        "quantity": 1,
+        "icon": "icon_5548.png"
+      }
+    ],
+    "source": "Training: Daisy_(NPC)"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Tiger Tail",
+        "quantity": 2,
+        "icon": "icon_5640.png"
+      },
+      {
+        "name": "Kraken Tendril",
+        "quantity": 1,
+        "icon": "icon_6255.png"
+      },
+      {
+        "name": "Expert-Quality Metal Slab",
+        "quantity": 1,
+        "icon": "icon_5300.png"
+      },
+      {
+        "name": "Flour",
+        "quantity": 10,
+        "icon": "icon_5041.png"
+      },
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Humanoid Skull",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Cauldron of Vile Thoughts",
+        "quantity": 1,
+        "icon": "icon_5151.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Cauldron of Vile Thoughts"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Grass",
+        "quantity": 1,
+        "icon": "icon_5057.png"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      },
+      {
+        "name": "Nightmare Flesh",
+        "quantity": 1,
+        "icon": "icon_5081.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Deadly Poisoned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Alchemy: Deadly Poison For Knives"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Fairy Wing",
+        "quantity": 7,
+        "icon": "icon_5399.png"
+      },
+      {
+        "name": "Pixie Dust",
+        "quantity": 1,
+        "icon": "icon_6270.png"
+      },
+      {
+        "name": "Fae Bee Stinger",
+        "quantity": 1,
+        "icon": "icon_6273.png"
+      },
+      {
+        "name": "Coral Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5148.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 4,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Gooey Fae Energy Potion",
+        "quantity": 5,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Item: Alchemy: Gooey Fae Energy Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Bottle of Milk",
+        "quantity": 1,
+        "icon": "icon_5160.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "icon": "icon_5022.png"
+      },
+      {
+        "name": "Wolfsbane",
+        "quantity": 1,
+        "icon": "icon_5042.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Heinous Wolfsbaned Knife",
+        "quantity": 5,
+        "icon": "icon_5893.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Training: Jace Soral Training: Landri the Cold"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Cinnabar",
+        "quantity": 1,
+        "icon": "icon_5593.png"
+      },
+      {
+        "name": "Explosive Runestone",
+        "quantity": 1,
+        "icon": "icon_5477.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Mercury",
+        "quantity": 5,
+        "icon": "icon_5429.png"
+      }
+    ],
+    "source": "Item: Alchemy: Mercury"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Triceratops Horn Bone",
+        "quantity": 1,
+        "icon": "icon_6440.png"
+      },
+      {
+        "name": "Black Foot Morel Flakes",
+        "quantity": 1,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Rattus Root",
+        "quantity": 1,
+        "icon": "icon_6227.png"
+      },
+      {
+        "name": "Licking Moss",
+        "quantity": 1,
+        "icon": "icon_6416.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Skeleton Dispersal Fluid",
+        "quantity": 5,
+        "icon": "icon_6243.png"
+      }
+    ],
+    "source": "Item: Alchemy: Skeleton Dispersal Fluid"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Magic Ooze Syrup",
+        "quantity": 2,
+        "icon": "icon_6249.png"
+      },
+      {
+        "name": "Pemphredo Eye",
+        "quantity": 2,
+        "icon": "icon_5186.png"
+      },
+      {
+        "name": "Rat Tooth",
+        "quantity": 1,
+        "icon": "icon_5634.png"
+      },
+      {
+        "name": "Eyestalk",
+        "quantity": 1,
+        "icon": "icon_5791.png"
+      },
+      {
+        "name": "Ultra Lac",
+        "quantity": 1,
+        "icon": "icon_5552.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Infinite Potion of Healing",
+        "quantity": 1,
+        "icon": "icon_6250.png"
+      }
+    ],
+    "source": "Item: Alchemy: Infinite Potion of Healing"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 55,
+    "ingredients": [
+      {
+        "name": "Porcini Mushroom Flakes",
+        "quantity": 2,
+        "icon": "icon_5017.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Porcini Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5146.png"
+      }
+    ],
+    "source": "Training: Yagreet"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 58,
+    "ingredients": [
+      {
+        "name": "Toxic Ice Sludge",
+        "quantity": 1,
+        "icon": "icon_5987.png"
+      },
+      {
+        "name": "Myconian Jelly",
+        "quantity": 1,
+        "icon": "icon_5988.png"
+      },
+      {
+        "name": "Banana",
+        "quantity": 1,
+        "icon": "icon_5390.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Toxin Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5155.png"
+      }
+    ],
+    "source": "Quest : Inconsiderate Slime Organisms"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 60,
+    "ingredients": [
+      {
+        "name": "Fairy Wing",
+        "quantity": 10,
+        "icon": "icon_5399.png"
+      },
+      {
+        "name": "Phoenix Feather",
+        "quantity": 1,
+        "icon": "icon_5997.png"
+      },
+      {
+        "name": "Fae Bee Stinger",
+        "quantity": 1,
+        "icon": "icon_6273.png"
+      },
+      {
+        "name": "Groxmax Mushroom Suspension",
+        "quantity": 1,
+        "icon": "icon_5145.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 4,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Foamy Fae Energy Potion",
+        "quantity": 5,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "source": "Item: Alchemy: Foamy Fae Energy Potion"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 60,
+    "ingredients": [
+      {
+        "name": "Perfect Memory Inhibitor",
+        "quantity": 2,
+        "icon": "icon_5155.png"
+      },
+      {
+        "name": "Mercury",
+        "quantity": 1,
+        "icon": "icon_5429.png"
+      },
+      {
+        "name": "Hope Oil",
+        "quantity": 1,
+        "icon": "icon_5190.png"
+      },
+      {
+        "name": "Blue Cheese",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Memory Enhancer",
+        "quantity": 2,
+        "icon": "icon_5432.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 2,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Quest : Bad Memory Fixer"
+  },
+  {
+    "profession": "Alchemy",
+    "level": 63,
+    "ingredients": [
+      {
+        "name": "Black Foot Morel Flakes",
+        "quantity": 2,
+        "icon": "icon_5016.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Black Foot Morel Suspension",
+        "quantity": 1,
+        "icon": "icon_5147.png"
+      }
+    ],
+    "source": "Training: Yagreet"
   }
 ]
