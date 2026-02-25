@@ -1,16 +1,22 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import CraftingFlow from '$lib/components/CraftingFlow.svelte';
-  import { getAvailableItemsWithDetails, buildCraftingTree, getSurveyDetails } from '$lib/calculator';
+  import { getAvailableItemsWithDetails, getAvailableSkills, buildCraftingTree, getSurveyDetails } from '$lib/calculator';
   import { treeToFlowElements } from '$lib/layout';
   import { getIconUrl } from '$lib/utils';
   import type { ObtainingMethod } from '$lib/types';
   import Dagre from '@dagrejs/dagre';
 
   // State
-  type ItemDetail = { name: string, icon?: string };
+  type ItemDetail = { name: string, icon?: string, skill?: string, level?: number };
 
   let availableItems: ItemDetail[] = [];
+  let availableSkills: string[] = [];
+  let selectedSkillFilter = 'All';
+  let sortMode: 'A-Z' | 'Level' = 'A-Z';
+  let sortAscending = true;
+  let showSkillFilterMenu = false;
+  let showSortMenu = false;
   let selectedItem = '';
   let targetQuantity = 1;
   let searchQuery = '';
@@ -32,15 +38,37 @@
   let obtainItemName = '';
   let obtainMethods: ObtainingMethod[] = [];
 
-  $: filteredItems = availableItems.filter(item => 
-    item.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  $: sortedFilteredItems = (() => {
+    let items = availableItems.filter(item => 
+      item.name.toLowerCase().includes(searchQuery.toLowerCase()) &&
+      (selectedSkillFilter === 'All' || item.skill === selectedSkillFilter)
+    );
+
+    items.sort((a, b) => {
+      let comparison = 0;
+      if (sortMode === 'Level') {
+        const levelA = a.level ?? 0;
+        const levelB = b.level ?? 0;
+        if (levelA !== levelB) {
+          comparison = levelA - levelB;
+        } else {
+          comparison = a.name.localeCompare(b.name);
+        }
+      } else {
+        comparison = a.name.localeCompare(b.name);
+      }
+      return sortAscending ? comparison : -comparison;
+    });
+
+    return items;
+  })();
 
   onMount(() => {
     window.addEventListener('openRecipeModal', handleOpenRecipeModal as EventListener);
     window.addEventListener('openObtainModal', handleOpenObtainModal as EventListener);
 
     availableItems = getAvailableItemsWithDetails();
+    availableSkills = getAvailableSkills();
     
     const savedItem = localStorage.getItem('calc_selectedItem');
     const savedQty = localStorage.getItem('calc_targetQuantity');
@@ -175,11 +203,103 @@
 
     <div class="control-group">
       <label for="itemSearch">Item to Craft</label>
-      <input id="itemSearch" type="text" placeholder="Search items..." bind:value={searchQuery} />
+      <div class="search-filter-row">
+        <input id="itemSearch" type="text" placeholder="Search..." bind:value={searchQuery} />
+        
+        <div class="filter-dropdown-container">
+          <button 
+            type="button"
+            class="filter-btn" 
+            class:active={selectedSkillFilter !== 'All'} 
+            on:click={(e) => { e.stopPropagation(); showSortMenu = false; showSkillFilterMenu = !showSkillFilterMenu; }}
+            title="Filter by Skill"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+          </button>
+          
+          {#if showSkillFilterMenu}
+            <div class="filter-menu">
+              <!-- svelte-ignore a11y-click-events-have-key-events -->
+              <!-- svelte-ignore a11y-no-static-element-interactions -->
+              <div 
+                class="filter-option" 
+                class:selected={selectedSkillFilter === 'All'} 
+                on:click={() => { selectedSkillFilter = 'All'; showSkillFilterMenu = false; }}
+              >
+                All Skills
+              </div>
+              {#each availableSkills as skill}
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <!-- svelte-ignore a11y-no-static-element-interactions -->
+                <div 
+                  class="filter-option" 
+                  class:selected={selectedSkillFilter === skill} 
+                  on:click={() => { selectedSkillFilter = skill; showSkillFilterMenu = false; }}
+                >
+                  {skill}
+                </div>
+              {/each}
+            </div>
+          {/if}
+        </div>
+
+        <div class="filter-dropdown-container">
+          <button 
+            type="button"
+            class="filter-btn" 
+            class:active={sortMode !== 'A-Z' || !sortAscending} 
+            on:click={(e) => { e.stopPropagation(); showSkillFilterMenu = false; showSortMenu = !showSortMenu; }}
+            title="Sort Options"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          </button>
+          
+          {#if showSortMenu}
+            <div class="filter-menu sort-menu">
+              <div class="filter-header">Sort By</div>
+              <div class="sort-toggle-group">
+                <button 
+                  class="sort-toggle-btn" 
+                  class:active={sortMode === 'A-Z'} 
+                  on:click={() => { sortMode = 'A-Z'; showSortMenu = false; }}
+                >
+                  A-Z
+                </button>
+                <button 
+                  class="sort-toggle-btn" 
+                  class:active={sortMode === 'Level'} 
+                  on:click={() => { sortMode = 'Level'; showSortMenu = false; }}
+                >
+                  Level
+                </button>
+              </div>
+
+              <div class="filter-divider"></div>
+              <div class="filter-header">Order</div>
+              <div class="sort-toggle-group">
+                <button 
+                  class="sort-toggle-btn" 
+                  class:active={sortAscending === true} 
+                  on:click={() => { sortAscending = true; showSortMenu = false; }}
+                >
+                  Asc
+                </button>
+                <button 
+                  class="sort-toggle-btn" 
+                  class:active={sortAscending === false} 
+                  on:click={() => { sortAscending = false; showSortMenu = false; }}
+                >
+                  Desc
+                </button>
+              </div>
+            </div>
+          {/if}
+        </div>
+      </div>
     </div>
 
     <div class="item-list">
-      {#each filteredItems as item}
+      {#each sortedFilteredItems as item}
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         <div 
@@ -187,13 +307,18 @@
           class:selected={selectedItem === item.name}
           on:click={() => selectItem(item.name)}
         >
-          {#if item.icon}
-            <img src={getIconUrl(item.icon)} alt={item.name} class="item-list-icon" />
+          <div class="item-list-main">
+            {#if item.icon}
+              <img src={getIconUrl(item.icon)} alt={item.name} class="item-list-icon" />
+            {/if}
+            <span class="item-name">{item.name}</span>
+          </div>
+          {#if item.skill}
+            <span class="item-skill">{item.skill.substring(0, 3)} {item.level}</span>
           {/if}
-          <span>{item.name}</span>
         </div>
       {/each}
-      {#if filteredItems.length === 0}
+      {#if sortedFilteredItems.length === 0}
         <div class="no-results">No items found.</div>
       {/if}
     </div>
@@ -213,6 +338,8 @@
     <CraftingFlow initialNodes={nodes} initialEdges={edges} />
   </main>
 </div>
+
+<svelte:window on:click={() => { showSkillFilterMenu = false; showSortMenu = false; }} />
 
 {#if showRecipeModal}
   <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -575,6 +702,132 @@
     border-radius: 2px;
   }
 
+  .search-filter-row {
+    display: flex;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .search-filter-row input {
+    flex-grow: 1;
+    min-width: 0;
+  }
+  
+  .filter-dropdown-container {
+    position: relative;
+    display: flex;
+  }
+
+  .filter-btn {
+    background: rgba(13, 17, 23, 0.8);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    padding: 0 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 100%;
+  }
+
+  .filter-btn:hover {
+    color: var(--text-main);
+    border-color: var(--accent);
+  }
+
+  .filter-btn.active {
+    color: var(--accent);
+    border-color: rgba(88, 166, 255, 0.5);
+    background: rgba(88, 166, 255, 0.1);
+  }
+
+  .filter-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 200px;
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    z-index: 100;
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    backdrop-filter: blur(20px);
+  }
+
+  .filter-option {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    color: var(--text-main);
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+
+  .filter-option:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .filter-option.selected {
+    color: var(--accent);
+    background: rgba(88, 166, 255, 0.1);
+  }
+
+  .sort-menu {
+    width: 180px;
+    padding: 12px;
+  }
+
+  .sort-toggle-group {
+    display: flex;
+    gap: 6px;
+    margin: 6px 4px 12px 4px;
+  }
+
+  .sort-toggle-btn {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-muted);
+    padding: 6px 0;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .sort-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+  }
+
+  .sort-toggle-btn.active {
+    background: rgba(88, 166, 255, 0.15);
+    border-color: rgba(88, 166, 255, 0.4);
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .filter-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 0;
+  }
+
+  .filter-header {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 4px;
+    font-weight: 700;
+  }
+
   input {
     background: rgba(13, 17, 23, 0.8);
     border: 1px solid var(--border-color);
@@ -628,25 +881,44 @@
 
   .item-list-row {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
     padding: 6px 8px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 0.9rem;
-    color: var(--text-muted);
     transition: all 0.1s;
   }
 
-  .item-list-row:hover {
-    background: rgba(255, 255, 255, 0.05);
+  .item-list-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  .item-list-row:hover .item-list-main {
     color: var(--text-main);
   }
 
   .item-list-row.selected {
     background: rgba(88, 166, 255, 0.15);
+  }
+
+  .item-list-row.selected .item-list-main {
     color: var(--accent);
     font-weight: 500;
+  }
+
+  .item-skill {
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
   }
 
   .item-list-icon {

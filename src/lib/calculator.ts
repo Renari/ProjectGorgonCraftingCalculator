@@ -42,11 +42,38 @@ export function getAvailableItems(): string[] {
     return Array.from(recipeMap.keys()).sort();
 }
 
-export function getAvailableItemsWithDetails(): { name: string, icon?: string }[] {
-    return Array.from(recipeMap.keys()).sort().map(name => ({
-        name,
-        icon: iconMap.get(name)
-    }));
+export function getAvailableSkills(): string[] {
+    const skills = new Set<string>();
+    for (const recipes of recipeMap.values()) {
+        for (const r of recipes) {
+            if (r.profession) skills.add(r.profession);
+        }
+    }
+    return Array.from(skills).sort();
+}
+
+export function getAvailableItemsWithDetails(): { name: string, icon?: string, skill?: string, level?: number }[] {
+    const items = Array.from(recipeMap.keys()).map(name => {
+        const recipes = recipeMap.get(name)!;
+        const displayRecipe = recipes.reduce((prev, curr) => curr.level < prev.level ? curr : prev, recipes[0]);
+        return {
+            name,
+            icon: iconMap.get(name),
+            skill: displayRecipe?.profession,
+            level: displayRecipe?.level
+        };
+    });
+
+    items.sort((a, b) => {
+        const levelA = a.level ?? 0;
+        const levelB = b.level ?? 0;
+        if (levelA !== levelB) {
+            return levelA - levelB;
+        }
+        return a.name.localeCompare(b.name);
+    });
+
+    return items;
 }
 
 export function getSurveyDetails(surveyName: string): { name: string, icon?: string }[] {
