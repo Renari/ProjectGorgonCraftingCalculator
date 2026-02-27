@@ -33350,5 +33350,1037 @@
       }
     ],
     "source": "Training: Yagreet"
+  },
+  {
+    "profession": "Fishing",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Crab",
+        "quantity": 1,
+        "icon": "icon_5050.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Crab Meat",
+        "quantity": 1,
+        "icon": "icon_5033.png"
+      }
+    ],
+    "source": "Training: Durstin Tallow Training: Fainor Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Clownfish",
+        "quantity": 1,
+        "icon": "icon_5052.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Clownfish Fillet",
+        "quantity": 1,
+        "icon": "icon_5036.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Durstin Tallow Training: Fainor Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Grapefish",
+        "quantity": 1,
+        "icon": "icon_5053.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Grapefish Fillet",
+        "quantity": 1,
+        "icon": "icon_5037.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Durstin Tallow Training: Fainor Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Handsaw",
+        "quantity": 1,
+        "icon": "icon_5094.png",
+        "consume_chance": 0.3
+      },
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      },
+      {
+        "name": "Giant Spider Leg",
+        "quantity": 1,
+        "icon": "icon_5082.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ice Fishing Gear (5 min)",
+        "quantity": 1,
+        "icon": "icon_5311.png"
+      }
+    ],
+    "source": "Training: Ukorga"
+  },
+  {
+    "profession": "Fishing",
+    "level": 18,
+    "ingredients": [
+      {
+        "name": "Handsaw",
+        "quantity": 1,
+        "icon": "icon_5094.png",
+        "consume_chance": 0.5
+      },
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      },
+      {
+        "name": "Raw Chicken",
+        "quantity": 1,
+        "icon": "icon_5223.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ice Fishing Gear (30 min)",
+        "quantity": 1,
+        "icon": "icon_5311.png"
+      }
+    ],
+    "source": "Training: Ukorga"
+  },
+  {
+    "profession": "Fishing",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Perch",
+        "quantity": 1,
+        "icon": "icon_5048.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Perch Fillet",
+        "quantity": 1,
+        "icon": "icon_5037.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Durstin Tallow Training: Fainor Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 21,
+    "ingredients": [
+      {
+        "name": "Lungfish",
+        "quantity": 1,
+        "icon": "icon_5864.png"
+      },
+      {
+        "name": "Bottle of Brine",
+        "quantity": 1,
+        "icon": "icon_5331.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Lungfish Fillet",
+        "quantity": 1,
+        "icon": "icon_5865.png"
+      },
+      {
+        "name": "Lungfish Fillet",
+        "quantity": 1,
+        "icon": "icon_5865.png",
+        "chance": 0.2
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": "Item: Fishing: Lungfish Fillet"
+  },
+  {
+    "profession": "Fishing",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "quantity": 1,
+        "icon": "icon_6304.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cleaned Shrimp",
+        "quantity": 1,
+        "icon": "icon_6305.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Handsaw",
+        "quantity": 1,
+        "icon": "icon_5094.png",
+        "consume_chance": 0.7
+      },
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      },
+      {
+        "name": "Venison",
+        "quantity": 1,
+        "icon": "icon_6203.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ice Fishing Gear (2 hour)",
+        "quantity": 1,
+        "icon": "icon_5311.png"
+      }
+    ],
+    "source": "Training: Ukorga"
+  },
+  {
+    "profession": "Fishing",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Large Conch",
+        "quantity": 1,
+        "icon": "icon_6308.png"
+      },
+      {
+        "name": "Seaweed",
+        "quantity": 1,
+        "icon": "icon_5672.png"
+      },
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png",
+        "consume_chance": 0.2
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Large Conch",
+        "quantity": 1,
+        "icon": "icon_6308.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 1,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Decent Musical Conch (Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Eel",
+        "quantity": 1,
+        "icon": "icon_5051.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Eel Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      }
+    ],
+    "source": "Training: Fainor Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 33,
+    "ingredients": [
+      {
+        "name": "Large Conch",
+        "quantity": 1,
+        "icon": "icon_6308.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 1,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Maximized Onyx",
+        "quantity": 1,
+        "icon": "icon_5205.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Decent Musical Conch (Max-Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Flounder",
+        "quantity": 1,
+        "icon": "icon_6301.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Flounder Fillet",
+        "quantity": 1,
+        "icon": "icon_5035.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Handsaw",
+        "quantity": 1,
+        "icon": "icon_5094.png",
+        "consume_chance": 0.9
+      },
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      },
+      {
+        "name": "Nightmare Flesh",
+        "quantity": 1,
+        "icon": "icon_5081.png",
+        "consume_chance": 0.5
+      }
+    ],
+    "results": [
+      {
+        "name": "Ice Fishing Gear (4 hour)",
+        "quantity": 1,
+        "icon": "icon_5311.png"
+      }
+    ],
+    "source": "Training: Ukorga"
+  },
+  {
+    "profession": "Fishing",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 2,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Nice Musical Conch (Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Shark",
+        "quantity": 1,
+        "icon": "icon_5049.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Shark Fillet",
+        "quantity": 1,
+        "icon": "icon_5035.png"
+      }
+    ],
+    "source": "Training: Fainor Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 43,
+    "ingredients": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 2,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Maximized Onyx",
+        "quantity": 1,
+        "icon": "icon_5205.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Nice Musical Conch (Max-Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Handsaw",
+        "quantity": 1,
+        "icon": "icon_5094.png"
+      },
+      {
+        "name": "String",
+        "quantity": 1,
+        "icon": "icon_5312.png"
+      },
+      {
+        "name": "Pork Shoulder",
+        "quantity": 1,
+        "icon": "icon_6206.png"
+      },
+      {
+        "name": "Nightmare Flesh",
+        "quantity": 1,
+        "icon": "icon_5081.png",
+        "consume_chance": 0.5
+      }
+    ],
+    "results": [
+      {
+        "name": "Ice Fishing Gear (8 hour)",
+        "quantity": 1,
+        "icon": "icon_5311.png"
+      }
+    ],
+    "source": "Training: Ukorga"
+  },
+  {
+    "profession": "Fishing",
+    "level": 45,
+    "ingredients": [
+      {
+        "name": "Large Conch",
+        "quantity": 1,
+        "icon": "icon_6308.png"
+      },
+      {
+        "name": "Seaweed",
+        "quantity": 1,
+        "icon": "icon_5672.png"
+      },
+      {
+        "name": "Potent Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png",
+        "consume_chance": 0.2
+      }
+    ],
+    "results": [
+      {
+        "name": "Perfect Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png",
+        "chance": 0.1
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Cavefish",
+        "quantity": 1,
+        "icon": "icon_5442.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cavefish Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Fainor"
+  },
+  {
+    "profession": "Fishing",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 2,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 1,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Quality Musical Conch (Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 53,
+    "ingredients": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 2,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 1,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Maximized Onyx",
+        "quantity": 1,
+        "icon": "icon_5205.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Quality Musical Conch (Max-Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 60,
+    "ingredients": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 3,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 2,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Great Musical Conch (Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 60,
+    "ingredients": [
+      {
+        "name": "Green Vexfish",
+        "quantity": 1,
+        "icon": "icon_5693.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Green Vexfish Fillet",
+        "quantity": 1,
+        "icon": "icon_5036.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Fainor"
+  },
+  {
+    "profession": "Fishing",
+    "level": 63,
+    "ingredients": [
+      {
+        "name": "Amazing Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Auger Shell",
+        "quantity": 3,
+        "icon": "icon_6306.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 2,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Vervadium",
+        "quantity": 1,
+        "icon": "icon_5219.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Great Musical Conch (Max-Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 65,
+    "ingredients": [
+      {
+        "name": "Amberjack",
+        "quantity": 1,
+        "icon": "icon_6302.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Amberjack Fillet",
+        "quantity": 1,
+        "icon": "icon_5037.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 65,
+    "ingredients": [
+      {
+        "name": "Catfish",
+        "quantity": 1,
+        "icon": "icon_6444.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Catfish Fillet",
+        "quantity": 1,
+        "icon": "icon_5036.png"
+      }
+    ],
+    "source": "Training: Moku"
+  },
+  {
+    "profession": "Fishing",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Perfect Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 1,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Vertan Murex Shell",
+        "quantity": 1,
+        "icon": "icon_6320.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Musical Conch (Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 70,
+    "ingredients": [
+      {
+        "name": "Yellow Perch",
+        "quantity": 1,
+        "icon": "icon_6443.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Yellow Perch Fillet",
+        "quantity": 1,
+        "icon": "icon_5037.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": "Training: Moku"
+  },
+  {
+    "profession": "Fishing",
+    "level": 73,
+    "ingredients": [
+      {
+        "name": "Perfect Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 1,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Vertan Murex Shell",
+        "quantity": 1,
+        "icon": "icon_6320.png"
+      },
+      {
+        "name": "Vervadium",
+        "quantity": 1,
+        "icon": "icon_5219.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Musical Conch (Max-Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Squidlips"
+  },
+  {
+    "profession": "Fishing",
+    "level": 80,
+    "ingredients": [
+      {
+        "name": "Perfect Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Fae Auger Shell",
+        "quantity": 1,
+        "icon": "icon_6317.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 2,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Astounding Musical Conch (Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Raina"
+  },
+  {
+    "profession": "Fishing",
+    "level": 83,
+    "ingredients": [
+      {
+        "name": "Perfect Conch",
+        "quantity": 1,
+        "icon": "icon_6325.png"
+      },
+      {
+        "name": "Fae Auger Shell",
+        "quantity": 1,
+        "icon": "icon_6317.png"
+      },
+      {
+        "name": "Silver Scallop",
+        "quantity": 2,
+        "icon": "icon_6307.png"
+      },
+      {
+        "name": "Glowy Yellow Crystal",
+        "quantity": 1,
+        "icon": "icon_5702.png"
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Crystal",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Astounding Musical Conch (Max-Enchanted)",
+        "quantity": 1,
+        "icon": "icon_5296.png"
+      }
+    ],
+    "source": "Training: Raina"
   }
 ]
