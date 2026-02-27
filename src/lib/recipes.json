@@ -34382,5 +34382,516 @@
       }
     ],
     "source": "Training: Raina"
+  },
+  {
+    "profession": "Tanning",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Shoddy Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5077.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Leather Strips",
+        "quantity": 1,
+        "icon": "icon_5175.png"
+      }
+    ],
+    "source": "Item: Tanning: Every Way To Make Leather Strips Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Crude Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5176.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Leather Strips",
+        "quantity": 2,
+        "icon": "icon_5175.png"
+      }
+    ],
+    "source": "Item: Tanning: Every Way To Make Leather Strips"
+  },
+  {
+    "profession": "Tanning",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Decent Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5176.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Leather Strips",
+        "quantity": 3,
+        "icon": "icon_5175.png"
+      }
+    ],
+    "source": "Item: Tanning: Every Way To Make Leather Strips"
+  },
+  {
+    "profession": "Tanning",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Rough Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5077.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Leather Strips",
+        "quantity": 1,
+        "icon": "icon_5175.png"
+      }
+    ],
+    "source": "Item: Tanning: Every Way To Make Leather Strips"
+  },
+  {
+    "profession": "Tanning",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Shoddy Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5171.png"
+      },
+      {
+        "name": "Rough Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5178.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Shoddy Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5077.png"
+      }
+    ],
+    "source": "Leveling: Tanning"
+  },
+  {
+    "profession": "Tanning",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Rough Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5178.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Leather Dyeable Armor",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dye Leather Armor (1 color)",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 8,
+    "ingredients": [
+      {
+        "name": "Rough Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5078.png"
+      },
+      {
+        "name": "Rough Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5178.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rough Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5077.png"
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 18,
+    "ingredients": [
+      {
+        "name": "Crude Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5172.png"
+      },
+      {
+        "name": "Decent Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5179.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Crude Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5176.png"
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Rough Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5077.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rawhide Sheet",
+        "quantity": 1,
+        "icon": "icon_5174.png"
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Decent Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5179.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Leather Dyeable Armor",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dye Leather Armor (2 colors)",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 28,
+    "ingredients": [
+      {
+        "name": "Decent Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5172.png"
+      },
+      {
+        "name": "Decent Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5179.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Decent Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5176.png"
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Decent Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5176.png"
+      },
+      {
+        "name": "Crude Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5176.png"
+      },
+      {
+        "name": "Decent Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5179.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Rawhide Liner",
+        "quantity": 2,
+        "icon": "icon_5174.png"
+      }
+    ],
+    "source": "Training: Ukorga"
+  },
+  {
+    "profession": "Tanning",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Nice Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5083.png"
+      },
+      {
+        "name": "Quality Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Nice Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 43,
+    "ingredients": [
+      {
+        "name": "Quality Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5173.png"
+      },
+      {
+        "name": "Quality Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Quality Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Quality Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Leather Dyeable Armor",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      },
+      {
+        "name": "",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
+        "name": "Dye",
+        "quantity": 1,
+        "icon": "Item-icon-none.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Dye Leather Armor (3 colors)",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": "Training: Kleave"
+  },
+  {
+    "profession": "Tanning",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Great Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5084.png"
+      },
+      {
+        "name": "Amazing Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Great Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": "Training: Sirine"
+  },
+  {
+    "profession": "Tanning",
+    "level": 65,
+    "ingredients": [
+      {
+        "name": "Amazing Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5084.png"
+      },
+      {
+        "name": "Amazing Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Amazing Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": "Training: Sirine"
+  },
+  {
+    "profession": "Tanning",
+    "level": 80,
+    "ingredients": [
+      {
+        "name": "Astounding Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5084.png"
+      },
+      {
+        "name": "Awesome Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Astounding Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": "Training: Felmer"
+  },
+  {
+    "profession": "Tanning",
+    "level": 90,
+    "ingredients": [
+      {
+        "name": "Awesome Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5084.png"
+      },
+      {
+        "name": "Awesome Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Awesome Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": "Training: Glowing Sphere"
   }
 ]
