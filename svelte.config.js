@@ -12,7 +12,8 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') || process.env.NODE_ENV === 'development' ? '' : process.env.BASE_PATH || ''
-		}
+		},
+		prerender: process.env.ORIGIN ? { origin: process.env.ORIGIN } : undefined
 	}
 };
 
