@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@dagrejs/dagre": "^2.0.4",
-    "@sveltejs/kit": "^2.53.0",
+    "@sveltejs/kit": "^2.53.4",
     "@tailwindcss/vite": "^4.2.1",
     "@xyflow/svelte": "^1.5.1",
     "tailwindcss": "^4.2.1"
