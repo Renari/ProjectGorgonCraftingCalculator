@@ -109,6 +109,10 @@
 
     if (selectedItem) {
       calculate();
+      setTimeout(() => {
+        const el = document.querySelector('.item-list-row.selected');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 50);
     }
 
     return () => {
@@ -117,20 +121,12 @@
     };
   });
 
-  // Save state tracking
-  $: if (typeof window !== 'undefined') {
-    if (selectedItem) localStorage.setItem('calc_selectedItem', selectedItem);
-    localStorage.setItem('calc_targetQuantity', targetQuantity.toString());
-    localStorage.setItem('calc_selectedRecipeIndices', JSON.stringify(selectedRecipeIndices));
-    localStorage.setItem('calc_skillFilter', selectedSkillFilter);
-    localStorage.setItem('calc_sortMode', sortMode);
-    localStorage.setItem('calc_sortAscending', sortAscending.toString());
-  }
-
   function selectItem(name: string) {
     selectedItem = name;
+    if (typeof window !== 'undefined') localStorage.setItem('calc_selectedItem', selectedItem);
     // Reset any custom recipe selections when choosing a completely new root target
     selectedRecipeIndices = {};
+    if (typeof window !== 'undefined') localStorage.setItem('calc_selectedRecipeIndices', JSON.stringify(selectedRecipeIndices));
     calculate();
   }
 
@@ -144,6 +140,7 @@
 
   function selectRecipeFromModal(idx: number) {
     selectedRecipeIndices[modalItemName] = idx;
+    if (typeof window !== 'undefined') localStorage.setItem('calc_selectedRecipeIndices', JSON.stringify(selectedRecipeIndices));
     showRecipeModal = false;
     calculate();
   }
@@ -251,7 +248,7 @@
               <div 
                 class="filter-option" 
                 class:selected={selectedSkillFilter === 'All'} 
-                on:click={() => { selectedSkillFilter = 'All'; showSkillFilterMenu = false; }}
+                on:click={() => { selectedSkillFilter = 'All'; showSkillFilterMenu = false; localStorage.setItem('calc_skillFilter', 'All'); }}
               >
                 All Skills
               </div>
@@ -261,7 +258,7 @@
                 <div 
                   class="filter-option" 
                   class:selected={selectedSkillFilter === skill} 
-                  on:click={() => { selectedSkillFilter = skill; showSkillFilterMenu = false; }}
+                  on:click={() => { selectedSkillFilter = skill; showSkillFilterMenu = false; localStorage.setItem('calc_skillFilter', skill); }}
                 >
                   {skill}
                 </div>
@@ -288,14 +285,14 @@
                 <button 
                   class="sort-toggle-btn" 
                   class:active={sortMode === 'A-Z'} 
-                  on:click={() => { sortMode = 'A-Z'; showSortMenu = false; }}
+                  on:click={() => { sortMode = 'A-Z'; showSortMenu = false; localStorage.setItem('calc_sortMode', 'A-Z'); }}
                 >
                   A-Z
                 </button>
                 <button 
                   class="sort-toggle-btn" 
                   class:active={sortMode === 'Level'} 
-                  on:click={() => { sortMode = 'Level'; showSortMenu = false; }}
+                  on:click={() => { sortMode = 'Level'; showSortMenu = false; localStorage.setItem('calc_sortMode', 'Level'); }}
                 >
                   Level
                 </button>
@@ -307,14 +304,14 @@
                 <button 
                   class="sort-toggle-btn" 
                   class:active={sortAscending === true} 
-                  on:click={() => { sortAscending = true; showSortMenu = false; }}
+                  on:click={() => { sortAscending = true; showSortMenu = false; localStorage.setItem('calc_sortAscending', 'true'); }}
                 >
                   Asc
                 </button>
                 <button 
                   class="sort-toggle-btn" 
                   class:active={sortAscending === false} 
-                  on:click={() => { sortAscending = false; showSortMenu = false; }}
+                  on:click={() => { sortAscending = false; showSortMenu = false; localStorage.setItem('calc_sortAscending', 'false'); }}
                 >
                   Desc
                 </button>
@@ -352,7 +349,7 @@
 
     <div class="control-group">
       <label for="qtyInput">Quantity Required</label>
-      <input id="qtyInput" type="number" min="1" max="100000" bind:value={targetQuantity} on:change={calculate} on:keyup={(e) => e.key === 'Enter' && calculate()} />
+      <input id="qtyInput" type="number" min="1" max="100000" bind:value={targetQuantity} on:change={() => { if(typeof window !== 'undefined') localStorage.setItem('calc_targetQuantity', targetQuantity.toString()); calculate(); }} on:keyup={(e) => { if(e.key === 'Enter') { if(typeof window !== 'undefined') localStorage.setItem('calc_targetQuantity', targetQuantity.toString()); calculate(); } }} />
     </div>
 
     <div class="info-box">
