@@ -73,6 +73,21 @@
     const savedItem = localStorage.getItem('calc_selectedItem');
     const savedQty = localStorage.getItem('calc_targetQuantity');
     const savedIndices = localStorage.getItem('calc_selectedRecipeIndices');
+    const savedFilter = localStorage.getItem('calc_skillFilter');
+    const savedSortMode = localStorage.getItem('calc_sortMode');
+    const savedSortAscending = localStorage.getItem('calc_sortAscending');
+
+    if (savedFilter && (savedFilter === 'All' || availableSkills.includes(savedFilter))) {
+      selectedSkillFilter = savedFilter;
+    }
+    
+    if (savedSortMode === 'A-Z' || savedSortMode === 'Level') {
+      sortMode = savedSortMode as 'A-Z' | 'Level';
+    }
+    
+    if (savedSortAscending !== null) {
+      sortAscending = savedSortAscending === 'true';
+    }
 
     if (savedItem && availableItems.some(i => i.name === savedItem)) {
       selectedItem = savedItem;
@@ -107,6 +122,9 @@
     if (selectedItem) localStorage.setItem('calc_selectedItem', selectedItem);
     localStorage.setItem('calc_targetQuantity', targetQuantity.toString());
     localStorage.setItem('calc_selectedRecipeIndices', JSON.stringify(selectedRecipeIndices));
+    localStorage.setItem('calc_skillFilter', selectedSkillFilter);
+    localStorage.setItem('calc_sortMode', sortMode);
+    localStorage.setItem('calc_sortAscending', sortAscending.toString());
   }
 
   function selectItem(name: string) {
