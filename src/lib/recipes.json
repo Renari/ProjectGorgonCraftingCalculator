@@ -12399,14 +12399,9 @@
         "icon": "icon_5013.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Small Freshwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -13005,14 +13000,9 @@
         "icon": "icon_5142.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -13321,14 +13311,9 @@
         "icon": "icon_5013.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Small Saltwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -14752,14 +14737,9 @@
         "icon": "icon_5041.png"
       },
       {
-        "name": "",
-        "quantity": 3,
-        "icon": ""
-      },
-      {
         "name": "Medium Freshwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -14903,34 +14883,19 @@
         "icon": "icon_5013.png"
       },
       {
-        "name": "",
+        "name": "Cheap Meat",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
       },
       {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Cheap Meat",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
@@ -15176,14 +15141,9 @@
         "icon": "icon_5041.png"
       },
       {
-        "name": "",
-        "quantity": 2,
-        "icon": ""
-      },
-      {
         "name": "Medium Saltwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -15930,14 +15890,9 @@
         "icon": "icon_5186.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -16110,14 +16065,9 @@
         "icon": "icon_5468.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Drinkable Rum Barrel",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -17426,14 +17376,9 @@
         "icon": "icon_5005.png"
       },
       {
-        "name": "",
-        "quantity": 3,
-        "icon": ""
-      },
-      {
         "name": "Large Freshwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -17783,24 +17728,14 @@
         "icon": "icon_5005.png"
       },
       {
-        "name": "",
+        "name": "Cheap Meat",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Cheap Meat",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
@@ -18251,14 +18186,9 @@
         "icon": "icon_5013.png"
       },
       {
-        "name": "",
-        "quantity": 2,
-        "icon": ""
-      },
-      {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -18857,14 +18787,9 @@
         "icon": "icon_5676.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Large Saltwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -19987,34 +19912,19 @@
         "icon": "icon_5010.png"
       },
       {
-        "name": "",
+        "name": "Cheap Meat",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
       },
       {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Cheap Meat",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
@@ -20266,14 +20176,9 @@
         "icon": "icon_5041.png"
       },
       {
-        "name": "",
-        "quantity": 2,
-        "icon": ""
-      },
-      {
         "name": "Extra-Large Freshwater Fish Fillet",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -23126,24 +23031,14 @@
         "icon": "icon_5069.png"
       },
       {
-        "name": "",
-        "quantity": 3,
-        "icon": ""
-      },
-      {
         "name": "Cheap Meat",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Cheap Meat",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -27420,24 +27315,14 @@
         "icon": "icon_5327.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Cloth Dyeable Armor",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -27815,34 +27700,19 @@
         "icon": "icon_5329.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Cloth Dyeable Armor",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       },
       {
-        "name": "",
+        "name": "Dye",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Dye",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
@@ -28138,44 +28008,24 @@
         "icon": "icon_5330.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Cloth Dyeable Armor",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       },
       {
-        "name": "",
+        "name": "Dye",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Dye",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
@@ -34493,24 +34343,14 @@
         "icon": "icon_5178.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Leather Dyeable Armor",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       }
     ],
     "results": [
@@ -34599,34 +34439,19 @@
         "icon": "icon_5179.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Leather Dyeable Armor",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       },
       {
-        "name": "",
+        "name": "Dye",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Dye",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
@@ -34749,44 +34574,24 @@
         "icon": "icon_5180.png"
       },
       {
-        "name": "",
-        "quantity": 1,
-        "icon": ""
-      },
-      {
         "name": "Leather Dyeable Armor",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
+        "icon": ""
       },
       {
-        "name": "",
+        "name": "Dye",
         "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
       },
       {
         "name": "Dye",
         "quantity": 1,
-        "icon": "Item-icon-none.png"
-      },
-      {
-        "name": "",
-        "quantity": 1,
         "icon": ""
-      },
-      {
-        "name": "Dye",
-        "quantity": 1,
-        "icon": "Item-icon-none.png"
       }
     ],
     "results": [
