@@ -11828,6 +11828,11 @@
     ],
     "results": [
       {
+        "name": "Safety Wax: Basic Shellac",
+        "quantity": 1,
+        "icon": ""
+      },
+      {
         "name": "Empty Bottle",
         "quantity": 1,
         "icon": "icon_5009.png"
