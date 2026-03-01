@@ -17,7 +17,7 @@ export interface Recipe {
     level: number;
     ingredients: RecipeIngredient[];
     results: RecipeResult[];
-    source: string;
+    source: string[];
 }
 
 export interface ByproductDetail {
@@ -40,7 +40,7 @@ export interface CraftingNode {
     icon?: string;
     profession?: string;
     level?: number;
-    source?: string;
+    source?: string[];
     isRaw: boolean;
     children?: CraftingNode[];
     availableRecipes?: Recipe[];

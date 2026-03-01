@@ -2,23 +2,7 @@
   import { Handle, Position } from '@xyflow/svelte';
   import type { Recipe, ByproductGroup } from '../types';
   import { getIconUrl } from '../utils';
-  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[], byproducts?: ByproductGroup[], isCompleted?: boolean };
-
-  function extractSources(sourceStr?: string) {
-    if (!sourceStr) return null;
-    let result = { type: 'Source', items: [] as string[] };
-    
-    if (sourceStr.includes('Training:')) {
-      result.type = 'Training';
-      result.items = sourceStr.split('Training:').map(s => s.trim()).filter(Boolean);
-    } else if (sourceStr.includes('Leveling:')) {
-      result.type = 'Leveling';
-      result.items = sourceStr.split('Leveling:').map(s => s.trim()).filter(Boolean);
-    } else {
-      result.items = [sourceStr];
-    }
-    return result;
-  }
+  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string[], profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[], byproducts?: ByproductGroup[], isCompleted?: boolean };
 
   function openRecipeModal(event: Event) {
     const customEvent = new CustomEvent('openRecipeModal', { 
@@ -56,7 +40,7 @@
     (event.target as HTMLElement).dispatchEvent(customEvent);
   }
 
-  $: sourceData = extractSources(data.source);
+
 </script>
 
 <div class="custom-node" class:raw={data.isRaw} class:completed={data.isCompleted}>
@@ -109,19 +93,17 @@
         {/if}
       </div>
     {/if}
-    {#if sourceData}
-      {#if sourceData.type === 'Leveling'}
-        <div class="source">Leveling</div>
-      {:else}
-        <details class="source-details">
-          <summary>{sourceData.type}</summary>
-          <ul>
-            {#each sourceData.items as item}
-              <li>{item}</li>
-            {/each}
-          </ul>
-        </details>
-      {/if}
+    {#if data.source && data.source.length > 0}
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+      <details class="source-details nodrag" on:click|stopPropagation>
+        <summary class="nodrag" on:mousedown|stopPropagation on:pointerdown|stopPropagation>Source</summary>
+        <ul>
+          {#each data.source as item}
+            <li>{item}</li>
+          {/each}
+        </ul>
+      </details>
     {/if}
   {:else if data.obtainingMethods && data.obtainingMethods.length > 0}
     <!-- svelte-ignore a11y-click-events-have-key-events -->
