@@ -10,7 +10,7 @@
     "target": "ES2022",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "types": ["svelte", "vite/client"],
+    "types": ["svelte", "vite/client", "@sveltejs/kit"],
     "skipLibCheck": true,
     /**
      * Typecheck JS in `.svelte` and `.js` files by default.
