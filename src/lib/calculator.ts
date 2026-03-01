@@ -88,7 +88,8 @@ export function buildCraftingTree(
     itemName: string, 
     targetQuantity: number, 
     nodeIdPrefix: string = "root",
-    selectedRecipeIndices: Record<string, number> = {}
+    selectedRecipeIndices: Record<string, number> = {},
+    completedNodes: string[] = []
 ): CraftingNode {
     let availableRecipes = recipeMap.get(itemName);
 
@@ -106,6 +107,7 @@ export function buildCraftingTree(
             quantity: targetQuantity,
             icon: iconMap.get(itemName),
             isRaw: true,
+            isCompleted: completedNodes.includes(nodeIdPrefix),
             obtainingMethods: obtainingMethodsMap[itemName] || []
         };
     }
@@ -136,7 +138,9 @@ export function buildCraftingTree(
     const craftsNeeded = Math.ceil(targetQuantity / expectedOutputPerCraft);
     const actualOutput = Math.floor(craftsNeeded * expectedOutputPerCraft);
 
-    const children: CraftingNode[] = recipe.ingredients.map((ing, index) => {
+    const isCompleted = completedNodes.includes(nodeIdPrefix);
+
+    const children: CraftingNode[] = isCompleted ? [] : recipe.ingredients.map((ing, index) => {
         let reqQty = ing.quantity * craftsNeeded;
         let isApproximate = false;
         
@@ -149,7 +153,8 @@ export function buildCraftingTree(
             ing.name, 
             reqQty, 
             `${nodeIdPrefix}-${index}`,
-            selectedRecipeIndices
+            selectedRecipeIndices,
+            completedNodes
         );
         
         if (isApproximate) {
@@ -199,6 +204,7 @@ export function buildCraftingTree(
         level: recipe.level,
         source: recipe.source,
         isRaw: false,
+        isCompleted: isCompleted,
         children: children,
         availableRecipes: availableRecipes,
         selectedRecipeIdx: Math.min(recipeIdx, availableRecipes.length - 1),

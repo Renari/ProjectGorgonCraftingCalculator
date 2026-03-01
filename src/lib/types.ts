@@ -48,6 +48,7 @@ export interface CraftingNode {
     isApproximate?: boolean;
     obtainingMethods?: ObtainingMethod[];
     byproducts?: ByproductGroup[];
+    isCompleted?: boolean;
 }
 
 export interface ObtainingMethod {

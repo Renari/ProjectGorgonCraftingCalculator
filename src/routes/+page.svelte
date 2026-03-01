@@ -26,6 +26,9 @@
 
   // Track user-selected variant index for identical-output recipes (e.g. Gold Ore -> Acorns vs Lower level)
   let selectedRecipeIndices: Record<string, number> = {};
+  
+  // Track specific sub-tree nodes the user marks as already owned/completed
+  let completedNodes: string[] = [];
 
   // Modal State
   let showRecipeModal = false;
@@ -66,6 +69,7 @@
   onMount(() => {
     window.addEventListener('openRecipeModal', handleOpenRecipeModal as EventListener);
     window.addEventListener('openObtainModal', handleOpenObtainModal as EventListener);
+    window.addEventListener('toggleCompleted', handleToggleCompleted as EventListener);
 
     availableItems = getAvailableItemsWithDetails();
     availableSkills = getAvailableSkills();
@@ -76,6 +80,7 @@
     const savedFilter = localStorage.getItem('calc_skillFilter');
     const savedSortMode = localStorage.getItem('calc_sortMode');
     const savedSortAscending = localStorage.getItem('calc_sortAscending');
+    const savedCompletedNodes = localStorage.getItem('calc_completedNodes');
 
     if (savedFilter && (savedFilter === 'All' || availableSkills.includes(savedFilter))) {
       selectedSkillFilter = savedFilter;
@@ -107,6 +112,14 @@
       }
     }
 
+    if (savedCompletedNodes) {
+      try {
+        completedNodes = JSON.parse(savedCompletedNodes);
+      } catch (e) {
+        completedNodes = [];
+      }
+    }
+
     if (selectedItem) {
       calculate();
       setTimeout(() => {
@@ -118,6 +131,7 @@
     return () => {
       window.removeEventListener('openRecipeModal', handleOpenRecipeModal as EventListener);
       window.removeEventListener('openObtainModal', handleOpenObtainModal as EventListener);
+      window.removeEventListener('toggleCompleted', handleToggleCompleted as EventListener);
     };
   });
 
@@ -127,6 +141,19 @@
     // Reset any custom recipe selections when choosing a completely new root target
     selectedRecipeIndices = {};
     if (typeof window !== 'undefined') localStorage.setItem('calc_selectedRecipeIndices', JSON.stringify(selectedRecipeIndices));
+    completedNodes = [];
+    if (typeof window !== 'undefined') localStorage.setItem('calc_completedNodes', JSON.stringify(completedNodes));
+    calculate();
+  }
+
+  function handleToggleCompleted(event: CustomEvent) {
+    const { id } = event.detail;
+    if (completedNodes.includes(id)) {
+      completedNodes = completedNodes.filter(n => n !== id);
+    } else {
+      completedNodes = [...completedNodes, id];
+    }
+    if (typeof window !== 'undefined') localStorage.setItem('calc_completedNodes', JSON.stringify(completedNodes));
     calculate();
   }
 
@@ -208,7 +235,7 @@
     if (!selectedItem || targetQuantity < 1) return;
     
     // Pass user's explicit recipe overrides so calculator knows which variant to plot
-    const tree = buildCraftingTree(selectedItem, targetQuantity, "root", selectedRecipeIndices);
+    const tree = buildCraftingTree(selectedItem, targetQuantity, "root", selectedRecipeIndices, completedNodes);
     const elements = treeToFlowElements(tree);
     
     // We apply dagre for an actual directed acyclic graph layout (tree structure)

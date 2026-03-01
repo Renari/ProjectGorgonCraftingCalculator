@@ -2,7 +2,7 @@
   import { Handle, Position } from '@xyflow/svelte';
   import type { Recipe, ByproductGroup } from '../types';
   import { getIconUrl } from '../utils';
-  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[], byproducts?: ByproductGroup[] };
+  export let data: { id: string, label: string, quantity: number, icon?: string, isRaw: boolean, source?: string, profession?: string, level?: number, availableRecipes?: Recipe[], selectedRecipeIdx?: number, isApproximate?: boolean, obtainingMethods?: string[], byproducts?: ByproductGroup[], isCompleted?: boolean };
 
   function extractSources(sourceStr?: string) {
     if (!sourceStr) return null;
@@ -45,10 +45,21 @@
     (event.target as HTMLElement).dispatchEvent(customEvent);
   }
 
+  function toggleCompleted(event: Event) {
+    const customEvent = new CustomEvent('toggleCompleted', { 
+        detail: { 
+          id: data.id 
+        },
+        bubbles: true,
+        composed: true 
+    });
+    (event.target as HTMLElement).dispatchEvent(customEvent);
+  }
+
   $: sourceData = extractSources(data.source);
 </script>
 
-<div class="custom-node" class:raw={data.isRaw}>
+<div class="custom-node" class:raw={data.isRaw} class:completed={data.isCompleted}>
   <div class="header">
     {#if data.icon}
       <img src={getIconUrl(data.icon)} alt={data.label} class="icon" />
@@ -123,8 +134,16 @@
   {/if}
 
   {#if data.availableRecipes && data.availableRecipes.length > 1}
-    <button class="alt-recipe-btn" title="Alternative Recipes Available" on:click={openRecipeModal}>
+    <button class="alt-recipe-btn nodrag" title="Alternative Recipes Available" on:click={openRecipeModal}>
       ⟳
+    </button>
+  {/if}
+
+  {#if data.id !== 'root'}
+    <button class="completion-toggle nodrag" class:active={data.isCompleted} on:click|stopPropagation|preventDefault={toggleCompleted} on:pointerdown|stopPropagation title={data.isCompleted ? "Mark as Incomplete" : "Mark as Already Owned/Completed"}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
     </button>
   {/if}
 
@@ -405,5 +424,49 @@
     transform: translateY(-50%) scale(1.15);
     background: #79c0ff;
     box-shadow: 0 0 12px rgba(88, 166, 255, 0.6);
+  }
+
+  .custom-node.completed {
+    background: rgba(48, 54, 61, 0.4);
+    border-color: rgba(48, 54, 61, 0.6);
+    opacity: 0.7;
+  }
+  
+  .custom-node.completed .icon,
+  .custom-node.completed .source {
+    filter: grayscale(100%);
+    opacity: 0.6;
+  }
+
+  .completion-toggle {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #161b22;
+    color: var(--text-muted);
+    border: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.2s ease;
+    padding: 0;
+  }
+
+  .completion-toggle:hover {
+    transform: scale(1.15);
+    border-color: #3fb950;
+    color: #3fb950;
+  }
+
+  .completion-toggle.active {
+    background: #3fb950;
+    border-color: #3fb950;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(63, 185, 80, 0.4);
   }
 </style>
