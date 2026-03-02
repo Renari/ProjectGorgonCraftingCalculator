@@ -21,7 +21,7 @@
   // Compute total raw materials directly from nodes
   $: rawTotals = Array.from(
     nodes
-      .filter((n: any) => n.data?.isRaw && !n.data?.isCompleted)
+      .filter((n: any) => !n.data?.isCompleted && (n.data?.isRaw || n.data?.allChildrenCompleted))
       .reduce((acc: Map<string, RawTotal>, n: any) => {
         const item = acc.get(n.data.label) || { label: n.data.label, icon: n.data.icon, quantity: 0, isApproximate: false };
         item.quantity += n.data.quantity;

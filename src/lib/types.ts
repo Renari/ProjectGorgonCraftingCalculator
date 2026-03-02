@@ -49,6 +49,7 @@ export interface CraftingNode {
     obtainingMethods?: ObtainingMethod[];
     byproducts?: ByproductGroup[];
     isCompleted?: boolean;
+    allChildrenCompleted?: boolean;
 }
 
 export interface ObtainingMethod {

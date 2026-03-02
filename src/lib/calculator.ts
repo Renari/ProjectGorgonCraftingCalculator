@@ -205,6 +205,7 @@ export function buildCraftingTree(
         source: recipe.source,
         isRaw: false,
         isCompleted: isCompleted,
+        allChildrenCompleted: !isCompleted && children.length > 0 && children.every(c => c.isCompleted || c.allChildrenCompleted),
         children: children,
         availableRecipes: availableRecipes,
         selectedRecipeIdx: Math.min(recipeIdx, availableRecipes.length - 1),

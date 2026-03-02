@@ -70,7 +70,8 @@ export function treeToFlowElements(root: CraftingNode): { nodes: Node[], edges: 
                 isApproximate: node.isApproximate,
                 obtainingMethods: node.obtainingMethods,
                 byproducts: node.byproducts,
-                isCompleted: node.isCompleted
+                isCompleted: node.isCompleted,
+                allChildrenCompleted: node.allChildrenCompleted
             },
             type: 'craftingNode'
         });
