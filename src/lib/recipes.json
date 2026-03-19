@@ -37050,5 +37050,776 @@
     "source": [
       "Training: Grim Jim"
     ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "quantity": 1,
+        "icon": "icon_5093.png"
+      },
+      {
+        "name": "Basic Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Thin Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Free Item Raffler",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": [
+      "Training: Ufkar"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Oak Wood",
+        "quantity": 1,
+        "icon": "icon_5093.png"
+      },
+      {
+        "name": "Simple Nails",
+        "quantity": 3,
+        "icon": "icon_5096.png"
+      },
+      {
+        "name": "Antler",
+        "quantity": 1,
+        "icon": "icon_5076.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Item Dispenser",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Kohan"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Oak Dowels",
+        "quantity": 1,
+        "icon": "icon_5275.png"
+      },
+      {
+        "name": "Simple Nails",
+        "quantity": 1,
+        "icon": "icon_5096.png"
+      },
+      {
+        "name": "Pyrite",
+        "quantity": 1,
+        "icon": "icon_5590.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Large-Capacity Item Dispenser",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Kohan"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 10,
+    "ingredients": [
+      {
+        "name": "Maple Wood",
+        "quantity": 1,
+        "icon": "icon_5140.png"
+      },
+      {
+        "name": "Advanced Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Thick Cranium Lotion",
+        "quantity": 1,
+        "icon": "icon_5152.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Modest Free Item Raffler",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": [
+      "Training: Ufkar"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 15,
+    "ingredients": [
+      {
+        "name": "Oak Lattice",
+        "quantity": 2,
+        "icon": "icon_6342.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 1,
+        "icon": "icon_6532.png"
+      },
+      {
+        "name": "Springs",
+        "quantity": 1,
+        "icon": "icon_5751.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Travel Cage",
+        "quantity": 1,
+        "icon": "icon_6339.png"
+      }
+    ],
+    "source": [
+      "Training: Leah Bowman"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Shoddy Storage Crate",
+        "quantity": 1,
+        "icon": "icon_5116.png"
+      },
+      {
+        "name": "Simple Nails",
+        "quantity": 1,
+        "icon": "icon_5096.png"
+      },
+      {
+        "name": "Rotten Strawberry",
+        "quantity": 1,
+        "icon": "icon_5164.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fancy Item Dispenser",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Kohan"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Cedar Wood",
+        "quantity": 1,
+        "icon": "icon_5141.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 1,
+        "icon": "icon_6532.png"
+      },
+      {
+        "name": "Springs",
+        "quantity": 1,
+        "icon": "icon_5751.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Paralyzing Rat Trap",
+        "quantity": 4,
+        "icon": "icon_6212.png"
+      }
+    ],
+    "source": [
+      "Training: Bogaku"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Thin Metal Lattice",
+        "quantity": 4,
+        "icon": "icon_6341.png"
+      },
+      {
+        "name": "Fine Cotton Yarn",
+        "quantity": 2,
+        "icon": "icon_5363.png"
+      },
+      {
+        "name": "Brass Screws",
+        "quantity": 2,
+        "icon": "icon_5747.png"
+      },
+      {
+        "name": "Grass",
+        "quantity": 1,
+        "icon": "icon_5057.png"
+      },
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Kennel",
+        "quantity": 1,
+        "icon": "icon_6340.png"
+      }
+    ],
+    "source": [
+      "Training: Leah Bowman"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 20,
+    "ingredients": [
+      {
+        "name": "Cedar Wood",
+        "quantity": 2,
+        "icon": "icon_5141.png"
+      },
+      {
+        "name": "Expert Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Copper Ore",
+        "quantity": 2,
+        "icon": "icon_5587.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Standard Item Raffler",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Ufkar"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 25,
+    "ingredients": [
+      {
+        "name": "Shoddy Leather Roll",
+        "quantity": 5,
+        "icon": "icon_5077.png"
+      },
+      {
+        "name": "Cotton Thread",
+        "quantity": 1,
+        "icon": "icon_5938.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 2,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Saltpeter",
+        "quantity": 1,
+        "icon": "icon_5183.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Miniature Egg Incubator",
+        "quantity": 5,
+        "icon": "icon_6449.png"
+      }
+    ],
+    "source": [
+      "Training: Leah Bowman"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Crude Meditation Stool",
+        "quantity": 1,
+        "icon": "icon_5100.png"
+      },
+      {
+        "name": "Amazing Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Pick-Me-Up Juice",
+        "quantity": 1,
+        "icon": "icon_5154.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fancy Item Raffler",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": [
+      "Training: Ufkar"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Oak Lattice",
+        "quantity": 1,
+        "icon": "icon_6342.png"
+      },
+      {
+        "name": "Cedar Lattice",
+        "quantity": 1,
+        "icon": "icon_6342.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 1,
+        "icon": "icon_6532.png"
+      },
+      {
+        "name": "Brass Oddity",
+        "quantity": 1,
+        "icon": "icon_5762.png"
+      },
+      {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Robust Travel Cage",
+        "quantity": 1,
+        "icon": "icon_6339.png"
+      }
+    ],
+    "source": [
+      "Training: Leah Bowman"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 30,
+    "ingredients": [
+      {
+        "name": "Shoddy Storage Crate",
+        "quantity": 1,
+        "icon": "icon_5116.png"
+      },
+      {
+        "name": "Maple Dowels",
+        "quantity": 1,
+        "icon": "icon_5276.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 1,
+        "icon": "icon_6532.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Simple Item Vendor",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Kohan"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 35,
+    "ingredients": [
+      {
+        "name": "Thin Metal Lattice",
+        "quantity": 2,
+        "icon": "icon_6341.png"
+      },
+      {
+        "name": "Sturdy Metal Lattice",
+        "quantity": 2,
+        "icon": "icon_6341.png"
+      },
+      {
+        "name": "Spool of Wire",
+        "quantity": 1,
+        "icon": "icon_5760.png"
+      },
+      {
+        "name": "Magnifying Glass",
+        "quantity": 1,
+        "icon": "icon_5753.png"
+      },
+      {
+        "name": "Voile Muslin",
+        "quantity": 1,
+        "icon": "icon_5328.png"
+      },
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Robust Kennel",
+        "quantity": 1,
+        "icon": "icon_6340.png"
+      }
+    ],
+    "source": [
+      "Training: Leah Bowman"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Crude Chair",
+        "quantity": 1,
+        "icon": "icon_5099.png"
+      },
+      {
+        "name": "Advanced Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Toxinflesh Ointment",
+        "quantity": 1,
+        "icon": "icon_5157.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Advanced Item Raffler",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      },
+      {
+        "name": "Empty Bottle",
+        "quantity": 1,
+        "icon": "icon_5009.png"
+      }
+    ],
+    "source": [
+      "Training: Ufkar"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 40,
+    "ingredients": [
+      {
+        "name": "Crude Storage Crate",
+        "quantity": 1,
+        "icon": "icon_5116.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 3,
+        "icon": "icon_6532.png"
+      },
+      {
+        "name": "Paladium",
+        "quantity": 1,
+        "icon": "icon_5583.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Large-Capacity Item Vendor",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Kohan"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Sturdy Metal Lattice",
+        "quantity": 3,
+        "icon": "icon_6341.png"
+      },
+      {
+        "name": "Silver Spring",
+        "quantity": 1,
+        "icon": "icon_5763.png"
+      },
+      {
+        "name": "Spool of Wire",
+        "quantity": 1,
+        "icon": "icon_5760.png"
+      },
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Fairy Iceheart",
+        "quantity": 1,
+        "icon": "icon_6294.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Cryogenic Pet Crate",
+        "quantity": 1,
+        "icon": "icon_6340.png"
+      }
+    ],
+    "source": [
+      "Item: Gadgeteering: Cryogenic Pet Crate"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Crude Storage Crate",
+        "quantity": 1,
+        "icon": "icon_5116.png"
+      },
+      {
+        "name": "Crude Calligraphy Bench",
+        "quantity": 1,
+        "icon": "icon_5095.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 4,
+        "icon": "icon_6532.png"
+      },
+      {
+        "name": "Dangerous Poisoned Knife",
+        "quantity": 1,
+        "icon": "icon_5893.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Fancy Item Vendor",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Kohan"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Cedar Wood",
+        "quantity": 1,
+        "icon": "icon_5141.png"
+      },
+      {
+        "name": "Simple Nails",
+        "quantity": 4,
+        "icon": "icon_5096.png"
+      },
+      {
+        "name": "Basic Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Tin Gear",
+        "quantity": 1,
+        "icon": "icon_5476.png"
+      },
+      {
+        "name": "Spool of Wire",
+        "quantity": 1,
+        "icon": "icon_5760.png"
+      },
+      {
+        "name": "Springs",
+        "quantity": 1,
+        "icon": "icon_5751.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Shoddy Music Box",
+        "quantity": 1,
+        "icon": "icon_6477.png"
+      }
+    ],
+    "source": [
+      "Item: Gadgeteering: Shoddy Music Box"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Decent Leather Roll",
+        "quantity": 5,
+        "icon": "icon_5176.png"
+      },
+      {
+        "name": "Cotton Thread",
+        "quantity": 1,
+        "icon": "icon_5938.png"
+      },
+      {
+        "name": "Fire Dust",
+        "quantity": 1,
+        "icon": "icon_5015.png"
+      },
+      {
+        "name": "Sulfur",
+        "quantity": 1,
+        "icon": "icon_5182.png"
+      },
+      {
+        "name": "Saltpeter",
+        "quantity": 1,
+        "icon": "icon_5183.png"
+      },
+      {
+        "name": "Fae Bee Stinger",
+        "quantity": 1,
+        "icon": "icon_6273.png"
+      },
+      {
+        "name": "Dahlia",
+        "quantity": 1,
+        "icon": "icon_5282.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Super Egg Incubator",
+        "quantity": 5,
+        "icon": "icon_6449.png"
+      }
+    ],
+    "source": [
+      "Training: Leah Bowman"
+    ]
+  },
+  {
+    "profession": "Gadgeteering",
+    "level": 50,
+    "ingredients": [
+      {
+        "name": "Barrel",
+        "quantity": 1,
+        "icon": "icon_5326.png"
+      },
+      {
+        "name": "Expert Wood Glue",
+        "quantity": 1,
+        "icon": "icon_5599.png"
+      },
+      {
+        "name": "Ultimate Acidic Cleanser",
+        "quantity": 1,
+        "icon": "icon_5181.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Ultra Item Raffler",
+        "quantity": 1,
+        "icon": "icon_5513.png"
+      }
+    ],
+    "source": [
+      "Training: Ufkar"
+    ]
   }
 ]
