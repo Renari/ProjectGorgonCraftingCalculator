@@ -128,6 +128,24 @@
       }, 50);
     }
 
+    // Load Ko-fi widget
+    const kofiScript = document.createElement('script');
+    kofiScript.src = 'https://storage.ko-fi.com/cdn/widget/Widget_2.js';
+    kofiScript.async = true;
+    kofiScript.onload = () => {
+      // @ts-expect-error kofiwidget2 is a global loaded dynamically
+      if (typeof kofiwidget2 !== 'undefined') {
+        // @ts-expect-error
+        kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'G2G6FWTKC');
+        const container = document.getElementById('kofi-widget-container');
+        if (container) {
+          // @ts-expect-error
+          container.innerHTML = kofiwidget2.getHTML();
+        }
+      }
+    };
+    document.body.appendChild(kofiScript);
+
     return () => {
       window.removeEventListener('openRecipeModal', handleOpenRecipeModal as EventListener);
       window.removeEventListener('openObtainModal', handleOpenObtainModal as EventListener);
@@ -382,6 +400,9 @@
     <div class="info-box">
       <p>Select an item and quantity to see its full raw material breakdown as an interactive flowchart.</p>
     </div>
+
+    <!-- Ko-fi Widget Container -->
+    <div id="kofi-widget-container" class="kofi-container"></div>
   </aside>
 
   <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -500,6 +521,12 @@
     z-index: 10;
     backdrop-filter: blur(20px);
     box-shadow: 2px 0 15px rgba(0,0,0,0.5);
+  }
+
+  .kofi-container {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
   }
 
   .canvas-area {
