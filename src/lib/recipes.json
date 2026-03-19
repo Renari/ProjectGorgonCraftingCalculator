@@ -6190,7 +6190,7 @@
         "icon": "icon_5180.png"
       },
       {
-        "name": "Expert Caustic Ink",
+        "name": "Amazing Caustic Ink",
         "quantity": 1,
         "icon": "icon_5886.png"
       },
@@ -6231,7 +6231,7 @@
         "icon": "icon_5180.png"
       },
       {
-        "name": "Expert Caustic Ink",
+        "name": "Amazing Caustic Ink",
         "quantity": 1,
         "icon": "icon_5886.png"
       },
@@ -7641,6 +7641,37 @@
     ],
     "source": [
       "Item: Carpentry: Astounding Priest Staff"
+    ]
+  },
+  {
+    "profession": "Carpentry",
+    "level": 90,
+    "ingredients": [
+      {
+        "name": "Spruce Wood",
+        "quantity": 4,
+        "icon": "icon_5698.png"
+      },
+      {
+        "name": "Strong Nails",
+        "quantity": 8,
+        "icon": "icon_6532.png"
+      },
+      {
+        "name": "Awesome Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Awesome Chair",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "source": [
+      "Recipe: Carpentry: Awesome Chair"
     ]
   },
   {
@@ -34635,6 +34666,40 @@
     "level": 45,
     "ingredients": [
       {
+        "name": "Bottle of Water",
+        "quantity": 1,
+        "icon": "icon_5010.png"
+      },
+      {
+        "name": "Ice Core",
+        "quantity": 1,
+        "icon": "icon_5295.png"
+      },
+      {
+        "name": "Spiderweb",
+        "quantity": 1,
+        "icon": "icon_5073.png"
+      },
+      {
+        "name": "Piece of Glass",
+        "quantity": 1,
+        "icon": ""
+      }
+    ],
+    "results": [
+      {
+        "name": "Potent Cold Resistance Potion",
+        "quantity": 1,
+        "icon": "icon_5153.png"
+      }
+    ],
+    "source": ""
+  },
+  {
+    "profession": "Alchemy",
+    "level": 45,
+    "ingredients": [
+      {
         "name": "Fire Dust",
         "quantity": 1,
         "icon": "icon_5015.png"
@@ -35341,6 +35406,33 @@
       "Training: Durstin Tallow",
       "Training: Fainor",
       "Training: Squidlips"
+    ]
+  },
+  {
+    "profession": "Fishing",
+    "level": 5,
+    "ingredients": [
+      {
+        "name": "Carp",
+        "quantity": 1,
+        "icon": "icon_6488.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Carp Fillet",
+        "quantity": 1,
+        "icon": "icon_5034.png"
+      },
+      {
+        "name": "Basic Fish Scales",
+        "quantity": 1,
+        "icon": "icon_5054.png",
+        "chance": 0.2
+      }
+    ],
+    "source": [
+      "Training: Roshun the Traitor"
     ]
   },
   {
@@ -36930,7 +37022,33 @@
       }
     ],
     "source": [
-      "Training: Glowing Sphere"
+      "Training: Dunahain Broadarm"
+    ]
+  },
+  {
+    "profession": "Tanning",
+    "level": 100,
+    "ingredients": [
+      {
+        "name": "Awesome Animal Skin",
+        "quantity": 1,
+        "icon": "icon_5084.png"
+      },
+      {
+        "name": "Incredible Tannin Powder",
+        "quantity": 1,
+        "icon": "icon_5180.png"
+      }
+    ],
+    "results": [
+      {
+        "name": "Incredible  Leather Roll",
+        "quantity": 1,
+        "icon": "icon_5177.png"
+      }
+    ],
+    "source": [
+      "Training: Grim Jim"
     ]
   }
 ]
